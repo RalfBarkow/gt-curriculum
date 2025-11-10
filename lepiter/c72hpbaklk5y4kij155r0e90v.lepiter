@@ -60,6 +60,43 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-10T13:29:38.268426+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-10T13:29:38.268426+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "rVzza57/DQC4x0eZCNbGcQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[A Moldable Development Curriculum]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2025-11-07T09:08:23.161023+01:00"
 								}
 							},
@@ -71,7 +108,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-07T09:08:24.917719+01:00"
+									"dateAndTimeString" : "2025-11-10T13:31:12.51092+01:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +118,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[A Moldable Development Curriculum]]"
+							"string" : "[[A Systematic Yet Moldable Path]] – insertion that clarifies what kind of path this is and why we start with one\n> “Here is a possible [[Roadmap]] for you to systematically learn about GT…”"
 						}
 					]
 				},
@@ -120,7 +157,45 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-10T12:34:55.060319+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-10T12:35:05.358144+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "DJxBqJ3/DQC0u6jbALFxGg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Example: Pure Git Onboarding]]\n"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -141,7 +216,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-07T08:54:13.696068+01:00"
+						"dateAndTimeString" : "2025-11-10T12:35:18.828022+01:00"
 					}
 				},
 				"uid" : {
@@ -151,7 +226,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "[[Examples]]"
 			}
 		]
 	},

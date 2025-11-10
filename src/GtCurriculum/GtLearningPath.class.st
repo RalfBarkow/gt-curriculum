@@ -128,6 +128,7 @@ GtLearningPath >> duration: aValue [
 { #category : #'as yet unclassified' }
 GtLearningPath >> examplePureGitOnboarding [
 	<gtExample>
+	<return: #GtLearningPath>
 	| path |
 	path := GtLearningPath
 			named: 'Pure Git Onboarding'
