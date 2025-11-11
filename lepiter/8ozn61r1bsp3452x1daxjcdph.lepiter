@@ -160,7 +160,45 @@
 				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T18:31:50.899001+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T18:31:57.124238+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "qsWUwrb/DQC6oQ6xBNRbvg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "{{gtClass:GtBookTraceTest}}"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -181,14 +219,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-11T12:03:16.466726+01:00"
+						"dateAndTimeString" : "2025-11-11T18:31:31.271085+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "FIaOVLH/DQCoa0OFDd/akg=="
 				},
-				"code" : "\"Define the test class\"\nTestCase\n\tsubclass: #GtBookTraceTest\n\tinstanceVariableNames: ''\n\tclassVariableNames: ''\n\tpackage: 'GToolkit-Roadmaps-Tests'.\n"
+				"code" : "\"Define the test class\"\nTestCase\n\tsubclass: #GtBookTraceTest\n\tinstanceVariableNames: ''\n\tclassVariableNames: ''\n\tpackage: 'GtCurriculum'.\n"
 			},
 			{
 				"__type" : "pharoSnippet",

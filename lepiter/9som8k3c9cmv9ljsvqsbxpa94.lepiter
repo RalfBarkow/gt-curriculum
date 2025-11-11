@@ -108,7 +108,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-10T22:17:19.721453+01:00"
+									"dateAndTimeString" : "2025-11-11T18:36:32.108492+01:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +118,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "```smalltalk\n\"Do-it 1: define trace classes\"\n\nObject subclass: #GtBookTrace\n    instanceVariableNames: 'id label startedAt finishedAt entries'\n    classVariableNames: 'Current'\n    package: 'GToolkit-Roadmaps-Traces'.\n\nObject subclass: #GtBookTraceEntry\n    instanceVariableNames: 'pageTitle pageUid roadmapStepId timestamp'\n    classVariableNames: ''\n    package: 'GToolkit-Roadmaps-Traces'.\n```\n"
+							"string" : "```smalltalk\n\"Do-it 1: define trace classes\"\n\nObject subclass: #GtBookTrace\n    instanceVariableNames: 'id label startedAt finishedAt entries'\n    classVariableNames: 'Current'\n    package: 'GtCurriculum'.\n\nObject subclass: #GtBookTraceEntry\n    instanceVariableNames: 'pageTitle pageUid roadmapStepId timestamp'\n    classVariableNames: ''\n    package: 'GtCurriculum'.\n```\n"
 						}
 					]
 				},
