@@ -15,27 +15,24 @@ GtCommitInlineSnippetResolver class >> gtExampleCommitViewCustomRepo [
 
 { #category : #'gt-examples' }
 GtCommitInlineSnippetResolver class >> gtExampleCommitViewDefaultRepo [
-    <gtExample>
-    | resolver |
-    resolver := self new.
-    ^ resolver viewForCommit: 'abcdef1234567890' repoSlug: 'feenkcom/gt-curriculum'
-
+	<gtExample>
+	| resolver |
+	resolver := self new.
+	^ resolver viewForCommit: 'abcdef1234567890' repoSlug: 'feenkcom/gt-curriculum'
 ]
 
 { #category : #'gt-examples' }
 GtCommitInlineSnippetResolver class >> gtExampleMissingCommitView [
-    <gtExample>
-    | resolver |
-    resolver := self new.
-    ^ resolver viewForMissingCommit
-
+	<gtExample>
+	| resolver |
+	resolver := self new.
+	^ resolver viewForMissingCommit
 ]
 
 { #category : #'gt-examples' }
 GtCommitInlineSnippetResolver class >> gtExampleSnippetName [
-    <gtExample>
-    ^ self new snippetName
-
+	<gtExample>
+	^ self new snippetName
 ]
 
 { #category : #registration }
