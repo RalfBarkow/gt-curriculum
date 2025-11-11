@@ -1,0 +1,337 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:34:38.044789+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:39:29.908311+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "tTzQSLT/DQCvv2bKDd/akg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "  1. Broken screenshot references after 79c16ce\n      - Commit 79c16ced7d39ce8478bf21aa213f63db6d04b0a8 removes screens/Screenshot_2025-04-06_at_12.47.35.png, yet the “[[Screens]]” Lepiter page\n        still embeds that file (lepiter/8ozn61s33uybyez34avm6xmvv.lepiter, around lines 1370–1390). Opening the page now produces a missing-\n        image placeholder. Restore the PNG or update the snippet to point at the new screens/image.png.\n "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:34:41.138853+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:37:23.354938+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Inb/SLT/DQCvxt/wDd/akg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : " 2. {{gtClass:GtRoadmapTrace}} serialization regressed\n      - Earlier commits (49f5585/4495a46) added event-aware traces so storeOn:/fromDictionary: could round-trip timelines. The current\n        {{gtMethod:GtRoadmapTrace>>asDictionary}} (src/GtCurriculum/GtRoadmapTrace.class.st:116‑123) no longer exports events nor stringifies startTime/\n        endTime. As a result, storeOn: drops all visit history and reloading a trace yields empty timelines. Reintroduce the event array and\n        ISO-string timestamps when building the dictionary.\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:38:58.079139+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:38:58.079139+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "oBNQWLT/DQCw+s7aDd/akg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "  3. Requested {{gtClass:LePictureSnippet}} move not completed\n      - You were asked to move the {{gtClass:TelemetryLogger}} screenshot from the Screens page to “[[Mondrian Treemap Teaching Unit]].” The new teaching\n        page now has a picture snippet, but the original snippet is still present in lepiter/8ozn61s33uybyez34avm6xmvv.lepiter (same block as\n        finding 1). To fulfill the “move” request, delete the snippet from Screens (or at least update it to reference the new asset).\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:33:45.563165+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:39:00.198158+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "TXyvRbT/DQCvqlFPDd/akg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : " Verification steps\n\n  - git log --since='2025-11-11' --oneline and git show <sha> to inspect each commit.\n  - rg -n 'Screenshot_2025-04-06_at_12.47.35.png' lepiter/8ozn61s33uybyez34avm6xmvv.lepiter to confirm dangling references.\n  - nl -ba src/GtCurriculum/GtRoadmapTrace.class.st | sed -n '110,140p' to inspect asDictionary’s current output.\n\n  Please address these to keep the FedWiki↔Lepiter workflow consistent and preserve the trace functionality introduced earlier."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T15:34:11.24696+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T15:36:47.829487+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "d0o3R7T/DQCvsxA7Dd/akg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : " Findings ([[Falsifier]] review of Nov 11, 2025 commits 4f2cc53…79c16ce)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:41:06.773537+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:41:06.773537+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "68v7X7T/DQCxQ8gnDd/akg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The practical workaround today is to use a normal link snippet or Markdown link that points to the GitHub commit URL, for example:\n\n  See commit [79c16ce](https://github.com/feenkcom/gt-curriculum/commit/79c16ced7d39ce8478bf21aa213f63db6d04b0a8).\n\n "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:40:14.494304+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:42:04.519206+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "yhreXLT/DQCxG6+vDd/akg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "If you’d like a real gtCommit macro, we’d have to [[Implement a new inline snippet resolver]] (similar to the existing gtPage: implementation) that looks up commits via the local git repository or a remote API."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T15:40:33.350021+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T15:40:33.350021+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "icv9XbT/DQCxLY6YDd/akg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Right now Lepiter only knows how to resolve the built-in inline macros (e.g., {{gtPage:…}}). There isn’t a registered resolver for a  hypothetical {{gtCommit:SHA}}, so adding text like {{gtCommit:79c16ce…}} won’t render anything."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-11T15:33:45.490765+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-11T15:33:45.490765+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Findings"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "745fae45-b4ff-0d00-afa9-01a60ddfda92"
+	}
+}
