@@ -381,6 +381,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[Example: Pure Git Onboarding]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T12:57:46.633095+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T12:57:48.059882+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "SoPZF7L/DQC0WNdbDd/akg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "{{gtPage:Example: GtProfiler|db=c72hpbcsarp76bsez1znvtuex}}"
 						}
 					]
 				},
@@ -906,7 +943,82 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-11T11:49:31.99571+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-11T11:49:33.201596+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "VFHKI7H/DQCoUZPgDd/akg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "{{gtPage:GtBookTrace >> recordVisitOfPage: aLePage fromStep: aRoadmapStepOrNil|db=c72hpbcsarp76bsez1znvtuex}}"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-11T12:55:51.237793+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-11T12:55:53.131539+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "VLv4ELL/DQC0TPbcDd/akg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "{{gtPage:#title was sent to nil, recordVisitOfPage:fromStep:|db=c72hpbcsarp76bsez1znvtuex}}"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -916,7 +1028,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-11T11:49:31.99571+01:00"
+									"dateAndTimeString" : "2025-11-11T12:55:14.574417+01:00"
 								}
 							},
 							"editEmail" : {
@@ -927,17 +1039,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-11T11:49:33.201596+01:00"
+									"dateAndTimeString" : "2025-11-11T12:55:32.384974+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "VFHKI7H/DQCoUZPgDd/akg=="
+								"uidString" : "glDJDrL/DQCz5OXADd/akg=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtPage:GtBookTrace >> recordVisitOfPage: aLePage fromStep: aRoadmapStepOrNil|db=c72hpbcsarp76bsez1znvtuex}}"
+							"string" : "[[GtBookTrace]]"
 						}
 					]
 				},
