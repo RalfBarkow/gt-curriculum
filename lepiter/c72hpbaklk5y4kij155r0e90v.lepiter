@@ -210,7 +210,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-07T09:08:23.161023+01:00"
+									"dateAndTimeString" : "2025-11-12T13:36:19.913146+01:00"
 								}
 							},
 							"editEmail" : {
@@ -221,17 +221,91 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-10T15:30:00.710063+01:00"
+									"dateAndTimeString" : "2025-11-12T13:36:24.782981+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "rKUAR17/DQCqZps9DOQCzg=="
+								"uidString" : "7b+Sv8b/DQCrGVnIBbKvoQ=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[A systematic yet moldable path]] – insertion that clarifies what kind of path this is and why we start with one\n> “Here is a possible [[Roadmap]] for you to systematically learn about GT…”"
+							"string" : "[[A systematic yet moldable path]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T13:36:37.940849+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T13:36:41.811019+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ddGlwMb/DQCrVu1JBbKvoQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Topic Map]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T13:36:33.841603+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T13:36:33.841603+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "H0pnwMb/DQCrQLIWBbKvoQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Roadmap]]"
 						},
 						{
 							"__type" : "textSnippet",
