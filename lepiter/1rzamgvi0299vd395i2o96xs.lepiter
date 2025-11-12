@@ -1,0 +1,113 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T06:25:21.456705+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T06:25:29.954934+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "oApKusD/DQCIElIzCnnVAA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:GtLepiterPageFactoryExample}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T06:24:54.473169+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T06:24:56.755441+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IU6uuMD/DQCIChc0CnnVAA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Here are paste-and-run do-it chunks to create the class and compile the GT example.\n\n**Do-it 1 — create the class if missing**\n```smalltalk\n(Smalltalk hasClassNamed: #GtLepiterPageFactoryExample) ifFalse: [\n\tObject\n\t\tsubclass: #GtLepiterPageFactoryExample\n\t\tinstanceVariableNames: ''\n\t\tclassVariableNames: ''\n\t\tpackage: 'GtCurriculum-Examples' ].\n```\n\n**Do-it 2 — compile the `<gtExample>` on the class side**\n```smalltalk\n(GtLepiterPageFactoryExample class)\n\tcompile: 'exampleRewriteJson\n<gtExample>\n| json parsed |\njson := ''{\"__type\":\"page\",\"uid\":{\"__type\":\"uid\",\"uidString\":\"733A1E4E-8D2D-4A18-8F2B-593E2C458C9B\"}}''.\nparsed := NeoJSONReader fromString: json.\nself assert: ((parsed at: ''uid'') at: ''uidString'') size equals: 36.\n^ parsed'\n\tclassified: 'examples'.\n```\n\n**(Optional) Do-it 3 — run it now**\n```smalltalk\nGtLepiterPageFactoryExample exampleRewriteJson\n```"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-12T06:25:16.510353+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-12T06:25:16.510353+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "GtLepiterPageFactoryExample"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "604baeb8-c0ff-0d00-8809-9ec30a79d500"
+	}
+}

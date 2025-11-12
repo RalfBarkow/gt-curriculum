@@ -1,0 +1,151 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T05:02:46.408171+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T05:08:07.180219+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RQDykr//DQC906LACnnVAA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Offers a model for mapping *research topic development* using LCT codes. → Apply this to GT learning paths to visualize which exercises favor *knowledge code* (deep conceptual understanding) vs. *knower code* (personal exploration). [dmx](https://dmx.ralfbarkow.ch/systems.dmx.webclient/#/topicmap/890720/topic/890720/info), [wiki](https://wiki.ralfbarkow.ch/view/arbaugh-fornaciari--hwang-2016)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T05:12:45.985436+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T05:14:27.778863+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "CNSutr//DQC+cYVpCnnVAA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Although the volume of business and management education (BME) research has expanded substantially, concerns remain about the field’s legitimacy and its ability to attract new and dedicated scholars. An obstacle that may impede field development is lack of knowledge about influential works and authors to frame topical areas of inquiry and future research questions. We used citation analysis to track the development of BME research by uncovering 100 highly cited articles that revolve primarily around four research topical areas: (a) Entrepreneurship Education, (b) Distance Education/Online Teaching and Learning, (c) Business Student Ethics, and (d) Characteristics/Critiques of Business Schools. We then used [[Legitimation Code Theory]] to categorize these articles on the basis of richness of knowledge ideas (Knowledge Code), the reputation of scholars (Knower Code), the combination of knowledge and reputation (Elite Code), or some other qualities (Relativist Code). Both Entrepreneurship Education and Online Teaching and Learning had articles in Relativist Code, Elite Code, and Knowledge Code categories, with other topical areas primarily populating the Knower Code and Relativist Code categories. We conclude by discussing potential implications for the development of BME research topics, BME scholars, and future applications of legitimation code theory.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T05:13:07.936263+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T05:13:07.936263+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "waT9t7//DQC+f9pbCnnVAA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "ARBAUGH, J. B., FORNACIARI, Charles J. and HWANG, Alvin, 2016. Identifying Research Topic Development in Business and Management Education Research Using Legitimation Code Theory. Journal of Management Education. December 2016. Vol. 40, no. 6, p. 654–691. DOI 10.1177/1052562916631109. "
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-12T05:02:46.31937+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-12T05:02:46.31937+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Arbaugh, Fornaciari & Hwang (2016)"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "96a3f092-bfff-0d00-bdd2-0e110a79d500"
+	}
+}
