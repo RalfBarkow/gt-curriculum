@@ -1,0 +1,114 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T14:47:40.887302+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T14:47:42.994933+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "QkG9vsf/DQCfW60GBdgNWQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "\"Inspired by: Optimizing the links in the book for first time readers\r\tThe map shows the current page in blue, reachable pages in dark green, and unreachable pages in red. To avoid clutter, the ToC page is not included, but is considered for reachability. Nodes are scaled according to their word count.\r\tOnly named pages are included.\""
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T14:46:54.830631+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T14:47:25.361893+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "9/11scf/DQCeAzKYBdgNWQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtMethod:LePage>>#gtReachablePagesMapFor:}}"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-12T14:44:03.917819+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-12T14:44:03.917819+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Optimizing the links in the book for first time readers"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "8cfb75b1-c7ff-0d00-9e02-706205d80d59"
+	}
+}

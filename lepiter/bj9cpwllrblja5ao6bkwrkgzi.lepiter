@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:39:16.836212+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:39:29.147095+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pqdYM9T/DQC2CuItBgXXwg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:Plan}}"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-13T05:39:16.731691+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-13T05:39:16.731691+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Plan"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "fe0d5733-d4ff-0d00-b609-36e80605d7c2"
+	}
+}

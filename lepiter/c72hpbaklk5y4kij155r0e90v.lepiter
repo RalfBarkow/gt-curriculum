@@ -902,6 +902,81 @@
 								"__type" : "textStyle"
 							},
 							"string" : "{{gtPage:Example: UUID-size contract|db=c72hpbcsarp76bsez1znvtuex}}"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T05:28:53.320018+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T05:30:00.202367+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "X4UuDtT/DQCyrjBbBgXXwg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[Tutorial: Exploring GitHub through GraphQL]] "
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T05:28:14.310199+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T05:28:33.260555+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "iE/bC9T/DQCyaplNBgXXwg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Tutorials]]"
 						}
 					]
 				},

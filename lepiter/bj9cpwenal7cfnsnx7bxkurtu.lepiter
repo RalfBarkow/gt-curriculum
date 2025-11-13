@@ -1,0 +1,1150 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:31:11.669925+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:31:22.452842+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2ZptFtT/DQCzoSHoBgXXwg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: [[Topic Map]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:35:27.864757+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:35:27.912429+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "BaGWG9T/DQCz9wYfBgXXwg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Our goal is to locate all of the tutorial pages within the book."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T05:37:44.840774+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T05:37:54.31635+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "iercLdT/DQC1lWnvBgXXwg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "In this tutorial, we’ll explore GitHub via its [GraphQL API](https://docs.github.com/en/graphql/guides/introduction-to-graphql) as an example. The plan is: […]"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-13T05:38:31.367351+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-13T05:38:34.162303+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "69qiMNT/DQC182SqBgXXwg=="
+													},
+													"code" : "Plan"
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T05:38:03.355243+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T05:38:13.776331+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "rmz3LtT/DQC1tDXnBgXXwg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "See [[Plan]]"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T05:40:49.648527+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T07:20:22.885595+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "49vgONT/DQC2ZNmnBgXXwg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "NB: We could conside each of the bullet points in snippet 2 of {{gtPage:Exploring GitHub through GraphQL |db=2j9m7db2i4oz116bexd7wbdxo}} as a [[Topic]]."
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T05:37:15.715057+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T05:37:17.697448+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "tXkgLNT/DQC1hphSBgXXwg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Context: [[Tutorials]] / {{gtPage:Exploring GitHub through GraphQL |db=2j9m7db2i4oz116bexd7wbdxo}}"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:36:33.385885+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:36:52.240694+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "u5KaKdT/DQC1SgSCBgXXwg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Example: {{gtPage:Tutorial: Exploring GitHub through GraphQL|db=c72hpbcsarp76bsez1znvtuex}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:46:47.65357+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:47:53.36071+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ycU3TtT/DQCZUc+yBFyESw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We have this example:"
+			},
+			{
+				"__type" : "exampleSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:47:31.713501+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:47:31.713501+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "B+LXUNT/DQCZ5yaEBFyESw=="
+				},
+				"exampleSelector" : "pageNodeWhatIsGtViaTopicAboutGt",
+				"previewHeight" : 200,
+				"previewShowSelector" : "gtViewsFor:",
+				"exampleBehaviorName" : "TopicMapExamples",
+				"codeExpanded" : true,
+				"previewExpanded" : false,
+				"noCode" : false
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:48:14.920875+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:48:54.046294+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3ixrU9T/DQCZ9mqPBFyESw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We change `pageNodeWithTitle:` to 'Exploring GitHub through GraphQL'"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "exampleSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T05:56:00.149609+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T05:56:00.149609+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "mQAmb9T/DQCajKCmBFyESw=="
+							},
+							"exampleSelector" : "exampleTutorial",
+							"previewHeight" : 200,
+							"previewShowSelector" : "gtViewsFor:",
+							"exampleBehaviorName" : "TopicMapExamplesCurriculum",
+							"codeExpanded" : true,
+							"previewExpanded" : false,
+							"noCode" : false
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T07:17:54.08071+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T07:17:54.108354+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "jz7qj9T/DQCdwa2pBFyESw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "*Tutorial* — a step-by-step tutorial to a topic"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T05:56:26.941832+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T06:06:39.241223+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "xdG+cNT/DQCakXhzBFyESw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We focus on the Stack and the {{gtClass:TMPageGroup}} (with e.g. 568 nodes). Looking at that OrderedCollections we find {{gtClass:TMPageNode}} and learn a new concept: **kind**. See {{gtPage:Topic Kind|db=244xgkfpin3aekn2bk64frso5}}"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T06:07:58.754212+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T07:24:42.680212+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "1An7mdT/DQCd+1vbBFyESw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Note: The path to this concept was developed based on a specific example. (By way of example.)"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T07:25:12.266857+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T07:25:13.557842+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "txB2rNX/DQCooLSABFyESw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "NB: {{gtMethod:TMKindNode>>#viaTopicNamed:}} and {{gtMethod:TMPageNode>>#viaTopicNamed:}}"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:50:46.527545+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:51:56.923753+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aYJ0XNT/DQCacNDfBFyESw=="
+				},
+				"code" : "TopicMapExamplesCurriculum"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T06:12:55.452733+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T07:26:13.499118+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "lEyqq9T/DQCftLqPBFyESw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "want: {{gtClass:Tutorial}} – an OrderedCollection of Named Pages"
+			},
+			{
+				"__type" : "exampleSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T06:24:06.493458+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T06:56:32.322231+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "apGp09T/DQCj8VbYBFyESw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "NB: Play and inspect example result"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T06:13:21.703061+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T06:13:21.703061+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "xNg6rdT/DQCfuuBQBFyESw=="
+				},
+				"exampleSelector" : "kind2Pages",
+				"previewHeight" : 350,
+				"previewShowSelector" : "gtTreeFor:context:",
+				"exampleBehaviorName" : "TMGtBookRoadmapExamples",
+				"codeExpanded" : true,
+				"previewExpanded" : false,
+				"noCode" : true
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T07:00:01.809308+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T07:00:03.875417+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "2g4hVNX/DQCmIjDnBFyESw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "{{gtPage:Exploring GitHub through GraphQL |db=2j9m7db2i4oz116bexd7wbdxo}}"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T06:57:13.741254+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T06:57:13.807609+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RTaUudT/DQCgkk4lBFyESw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "have: a Dictionary with e.g. 11 items and a key `Tutorial`, which leads us to an OrderedCollection of e.g. 105 items. In this collection with can search for and find our example:"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T06:14:27.962743+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T06:15:23.170521+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "v+MtsdT/DQCfv3apBFyESw=="
+							},
+							"code" : "TutorialPlayer\t\"I can navigate through an AbstractTutorial subclass (which defines lessons). With #next and #previous, you can go forward and backward through the tutorial. \""
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "blockQuoteSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T07:03:08.311756+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T07:03:11.596837+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "/uA+X9X/DQCnQtLOBFyESw=="
+										},
+										"string" : "To create your own tutorial:\r- subclass AbstractTutorial\r- implement a few methods which returns a Lesson instance\r- implement the method #tutorial which returns a collection of selectors that when executed create related lessons.\r\rFor example, see MockTutorial (minimalist) and PharoySntaxTutorial (default PharoTutorial one).\r\rSee the PharoTutorial class comment to execute your own tutorial."
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "exampleSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-13T07:14:50.881417+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-13T07:14:50.881417+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "xT0fidX/DQCnvQjeBFyESw=="
+													},
+													"exampleSelector" : "exampleTutorial",
+													"previewHeight" : 200,
+													"previewShowSelector" : "gtViewsFor:",
+													"exampleBehaviorName" : "Tutorial",
+													"codeExpanded" : true,
+													"previewExpanded" : false,
+													"noCode" : false
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-13T07:15:13.126914+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-13T07:16:20.315178+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "Sa5yitX/DQCnyFLxBFyESw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "We get a Pharo Tutorial. NB: Instead, we could expect a glamorous tutorial."
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T07:03:40.983331+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T07:03:46.895852+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "UWgxYdX/DQCnTypJBFyESw=="
+										},
+										"code" : "Tutorial"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T07:06:13.358228+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-13T07:06:45.518758+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "FXdGatX/DQCnggZNBFyESw=="
+										},
+										"code" : "Lesson\t\"A lesson is a simple data object holding a name and an associated text that will be displayed by the tutorialPlayer. \""
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T07:02:09.715595+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-13T07:02:45.227034+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "xsXAW9X/DQCnLBM8BFyESw=="
+							},
+							"code" : "AbstractTutorial\t\"Parent class of all Pharo tutorials.\""
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T07:00:45.107421+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T07:01:10.430913+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "DsG1VtX/DQCmOYa9BFyESw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We still want a {{gtClass:Tutorial}} class and found:"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-13T05:31:11.570497+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-13T05:31:11.570497+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Tutorials"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "62106c16-d4ff-0d00-b3a0-56000605d7c2"
+	}
+}

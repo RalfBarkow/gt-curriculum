@@ -1,0 +1,76 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:30:35.489019+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T05:31:04.21267+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "LodFFNT/DQCzAvt0BgXXwg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: [[Tutorials]] / {{gtPage:Exploring GitHub through GraphQL |db=2j9m7db2i4oz116bexd7wbdxo}}"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-13T05:30:35.377459+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-13T05:30:35.377459+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Tutorial: Exploring GitHub through GraphQL"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "c5d14314-d4ff-0d00-b301-fb810605d7c2"
+	}
+}

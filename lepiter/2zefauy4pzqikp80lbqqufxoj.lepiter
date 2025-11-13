@@ -1,0 +1,181 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-21T12:56:42.682959+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-21T12:57:22.054686+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ijrLygr+DQC62+zWAnVkMg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "In this video, you will learn how to define objects and delegate behavior to them, promoting better design. You’ll understand the \"Tell, don't ask\" principle to identify areas for variation in your system. We’ll also suggest reading \"Transform Conditionals of Object-Oriented Reengineering Patterns\" for more advanced insights."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-21T12:56:58.824653+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-21T12:57:01.034326+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/4fBywr+DQC63uhFAnVkMg=="
+				},
+				"code" : "lePage := thisSnippet parent.\rlePageSlug := lePage title asFedWikiSlug.\rfedWikiPage := FwPage slug: lePageSlug withLePage: lePage"
+			},
+			{
+				"__type" : "youtubeSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-21T12:57:36.580229+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-21T12:57:51.434585+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "vKIBzgr+DQC669A2AnVkMg=="
+				},
+				"youtubeUrl" : "https://youtu.be/eVxnBjySbx8"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-21T13:07:48.627389+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-21T13:08:03.723765+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "jbx88gr+DQC67cNlAnVkMg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "M1-6 Lecture Reification and delegation - A case study: Microdown in Pillar PDF / VIDEO"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-21T12:56:42.620842+02:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-21T12:56:42.620842+02:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Reification and Delegation"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "433ecaca-0afe-0d00-bada-a8b402756432"
+	}
+}
