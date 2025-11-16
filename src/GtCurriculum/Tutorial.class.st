@@ -55,7 +55,7 @@ Tutorial class >> topicMap [
 
 { #category : #'class accessing' }
 Tutorial class >> tutorialNamedPages [
-	^ (self tutorialPages collect: [ :page | page title ]) asOrderedCollection
+	^ (self topicMap kindNodeNamed: 'Tutorial') pageGroup pages
 ]
 
 { #category : #'class accessing' }
