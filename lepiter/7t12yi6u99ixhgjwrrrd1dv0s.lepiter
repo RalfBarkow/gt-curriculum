@@ -55,7 +55,45 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-12T14:42:10.609937+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-12T14:42:32.937469+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "Z5wNq8f/DQC0E1lsBbKvoQ=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "To do: offer guidelines how to navigate and query the roadmaps."
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -65,7 +103,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T14:42:10.609937+01:00"
+												"dateAndTimeString" : "2025-11-12T14:42:01.853294+01:00"
 											}
 										},
 										"editEmail" : {
@@ -76,17 +114,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T14:42:32.937469+01:00"
+												"dateAndTimeString" : "2025-11-17T09:40:13.523663+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "Z5wNq8f/DQC0E1lsBbKvoQ=="
+											"uidString" : "Vv2Hqsf/DQCz7vLMBbKvoQ=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "To do: offer guidelines how to navigate and query the roadmaps."
+										"string" : "Create draft pages describi g Topic Maps and Roadmap visualizations."
 									}
 								]
 							},
@@ -98,7 +136,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-12T14:42:01.853294+01:00"
+									"dateAndTimeString" : "2025-11-17T09:39:52.507522+01:00"
 								}
 							},
 							"editEmail" : {
@@ -109,17 +147,92 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-12T14:42:01.853294+01:00"
+									"dateAndTimeString" : "2025-11-17T09:39:52.824199+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "Vv2Hqsf/DQCz7vLMBbKvoQ=="
+								"uidString" : "wAElBygADgCVQPf6ADTf3w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Create draft pages describe Topic Maps and Roadmap visualizations."
+							"string" : "Add the new page on Topic Maps to the GT Book."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:40:00.607808+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:40:16.269229+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "y5ugBygADgCVSUZDADTf3w=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "(What to call the Units, Steps etc?)\nOne main path with sideroads.\n(How to represent this?)"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:40:16.266763+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:40:16.266763+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "soqPCCgADgCVbYbyADTf3w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Expand Learning Unit 1 as a tree of pages."
 						},
 						{
 							"__type" : "textSnippet",
@@ -183,7 +296,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-12T14:42:04.18775+01:00"
+									"dateAndTimeString" : "2025-11-17T09:43:13.134382+01:00"
 								}
 							},
 							"uid" : {
@@ -193,7 +306,232 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Create a *visual learning map* as a generated Scenery (see [[Learning flow and integration]]\n"
+							"string" : "Create a *visual learning map* as a generated Scenery (see [[Learning flow and integration]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:43:13.615929+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:43:24.315871+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "4awhEygADgCXPcSHADTf3w=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Aren't these precisely the *Patterns*?\n\nWhat is GT?\nExplore an existing case study to answer questions.\n\nCreating a domain model.\nLive exploration to build domain entities.\nUse Lepiter and playgrounds.\nSide roads: language workbenches, examples\n\nCreating contextual tools to answer questions.\nViews, actions, searches.\nSide roads: Mondrian, Sceneries.\n\n"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:43:24.313889+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:43:24.313889+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "UufEEygADgCXVsEnADTf3w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Summarize what are the main things to learn about GT as opposed to the technical side issues"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:41:13.618107+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:42:02.035215+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "CKf6CygADgCWbv+tADTf3w=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Applied to coding with Inspector playgrounds.\nInspect an object. Write some code. Dive in. Extract methods. Pop back out. \nNeed a nice use case for a tutorial.\nSee TG's slack pointers\nhttps://feenk.slack.com/archives/CNT0ZB7T9/p1763195590436869\nhttps://feenk.slack.com/archives/CNT0ZB7T9/p1763208777638039"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:40:28.61875+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:40:35.003485+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "OQVMCSgADgCVd+g8ADTf3w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Write up the Accordion metaphor as a *pattern*."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:42:22.220592+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:42:39.769213+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "hHERECgADgCXB4LgADTf3w=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Can we create a Wardley map of what GT offers to newcomers?\nNeed to reread chapter 2 (Finding a path) in this context.\n\nNewcomers are our customer base.\nWe offer GT, the GT book, and the MD methodology.\nWhat is the value chain? What are the components?\n\nGT book, pages\nPersonal KB\nMD IDE (coding tools)\nBloc GUI framework\nEDD framework\nMD methodology\nGitHub\nO/S"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:42:39.767047+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:42:41.973921+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "eSsdESgADgCXKdrfADTf3w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Wardley Mapping GT Newcomers"
 						}
 					]
 				},
@@ -216,7 +554,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-12T10:35:06.447284+01:00"
+						"dateAndTimeString" : "2025-11-17T09:40:58.114434+01:00"
 					}
 				},
 				"uid" : {
@@ -226,7 +564,343 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# To do"
+				"string" : "# To do (high priority)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:39:25.845217+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:39:39.042266+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "FiyOBSgADgCVCRvkADTf3w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Check out the suggestions for improving the Gentle Intro to ST tutorial.\nDiscord feedback May 2, 2025.\n[](https://discord.com/channels/729445214812504107/737255889517543545/1367912428750372905)\n[](https://www.rowanmolony.com/wiki.html#GToolkit%20-%20Gentle%20Introduction%20to%20Pharo%20Smalltalk)"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:38:42.758713+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:38:54.518427+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Vbn8AigADgCUh1pqADTf3w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Add Design Principles Behind Smalltalk to the History page.\n[](https://www.cs.virginia.edu/~evans/cs655/readings/smalltalk.html)"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:38:24.28559+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:38:33.907511+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "DNniASgADgCUUI45ADTf3w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Recycle or adapt zeniko's GT descriptions in the GT book?\nSee: [](https://discord.com/channels/729445214812504107/735947900651175998/1414646256105427037)"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:38:03.070576+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:38:16.436813+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "DyKfACgADgCUNSZYADTf3w=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Prototyping. Changing appareance of nodes and edges.\nChanging the layout. Adding tooltips.\nExtracting a method for use of views.\nParameterizing the selection of nodes and edges.\nFor example for results of spotter searches."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:39:03.721135+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:39:16.465019+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "RpE8BCgADgCU0jf/ADTf3w=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "2025-09-22\nAdd a page on how to export Mondrian as png\n[](https://discord.com/channels/729445214812504107/735945764597006466/1419658785785380966)\n[](https://discord.com/channels/729445214812504107/735945764597006466/1419821461719224381)"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:38:07.106173+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:38:07.106173+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "kbXcACgADgCUQMLfADTf3w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Write a Mondrian tutorial. How to find stuff?"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:36:43.82608+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:37:10.62661+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "K/bl+ycADgCTdZUgADTf3w=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "TreePager demos. Discord 2025-11-15/17\n[](https://discord.com/channels/729445214812504107/735949717049049129/1439381763418882089)\n[](https://discord.com/channels/729445214812504107/735949717049049129/1439861301361770627)"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:36:36.368402+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T09:36:43.344139+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Myl0+ycADgCS/cXUADTf3w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Add TreePager demo page"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T09:37:35.709535+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T09:41:04.389367+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3KL9/icADgCTzgeLADTf3w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ... Pages to work on (lower priority)"
 			}
 		]
 	},
