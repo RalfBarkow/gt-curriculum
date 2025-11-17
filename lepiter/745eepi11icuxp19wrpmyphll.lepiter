@@ -1,0 +1,751 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T11:45:59.432211+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T11:46:25.928941+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "TyAryikADgClVAw2AIMveA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "See {{gtClass:GtWhatMakesBlocSpecialExplanation}} / Comment"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:45:21.343012+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:46:20.002679+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "COjlxykADgClRJuSAIMveA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Context: the material we need to teach **“How to correct errors in GT”** in a *moldable*, GT-native way.\nBelow is a clean, curriculum-ready explanation showing learners **how to debug GT visualizations**, **how to find working patterns**, and **how to reuse existing Bloc/Mondrian examples**, all grounded in the actual GT philosophy that appears in *What Makes Bloc Special*. [chatgpt](https://chatgpt.com/g/g-p-691997577a78819194cd62664eb19c31-som/c/691af98e-a414-8330-865f-8e3c0608942b)"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T12:11:26.086896+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T12:11:30.735505+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "TAcqJSoADgCow3LgAIMveA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtPage:Graphical stack|db=2j9m7db2i4oz116bexd7wbdxo}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:47:52.626795+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:47:52.626795+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4kPq0CkADgClzl1XAIMveA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 🧭 **How to Correct Errors in GT (Moldable Debugging)**\n\n### *A curriculum module based on Spotter, the Debugger, and Bloc’s Explainable Rendering Tree*\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:47:56.054368+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:53:31.290133+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "4p0e0SkADgCl1S5ZAIMveA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "GT is designed so that **your code, your UI, and your debugging tools all live in the same rendering tree**.\nThat means:\n\n> **You are never stuck. You always have tools to *see* what’s happening.**\n\nTypical errors:\n\n* *Instance of X did not understand #foo:*\n  → Wrong message for this GT version.\n\n* *Message is not implemented:*\n  → You need to implement that message (or copied code from an incompatible version).\n\n* *UnhandledError:*\n  → Execution failed before a proper debugger could open.\n\nIn GT, these errors are *entry points* into exploration.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:53:31.284705+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:53:31.284705+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "xssZ5SkADgCnCmnTAIMveA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## ⚠️ When you see an error in a GT view"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:48:00.28098+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:51:08.439366+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Whtf0SkADgCl3Fa+AIMveA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "When a red GT error banner appears:\n\n### **1.1. Click the ⚡ icon**\n\nThis opens a debugger *inside the Bloc rendering tree*.\n\nIf the debugger itself is empty or broken (like in your screenshot),\nopen the **Process Browser**:\n\n* `⌘O` → type **Process Browser**\n* Select the top failed process → click **Debug**.\n\nNow you see:\n\n* The **Stack** (execution frames)\n* The **Variables** (inspect anything)\n* The **Receiver class** (where the DNU or missing method occurred)\n\nThis tells you:\n\n* *Which selector failed?*\n* *Which object received it?*\n* *Where did your view call it from?*\n\n### **Exercise**\n\nFor any SOM example, deliberately break a selector (rename `relocate:` to `reloc8:`) and practice:\n\n* Opening the debugger\n* Finding the failing frame\n* Inspecting the root element\n* Navigating back to the method to fix\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:51:08.433437+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:51:08.433437+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RhaW3CkADgCmmHMcAIMveA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 1. 🧭 Use the Debugger + Process Browser"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:48:06.238162+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:50:49.453189+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "dAG60SkADgCl47jDAIMveA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "**Spotter is your best debugging friend.**\n\nExample debugging question:\n\n> “Does `explicitElement` exist anywhere?”\n\nSearch:\n\n```\nexplicitElement\n```\n\nor search classes:\n\n```\nGtPhlowView\nGtPhlowForwarderView\nBlElement\n```\n\nYou will see:\n\n* Implementors\n* Senders\n* Examples (if methods have `<gtExample>`)\n\n### Searching for visual patterns\n\nWhen building 2D views:\n\n```\nscatter\nnodes\nellipse\nBLGridLayout\nconstraints\nlayout\ngraph\n```\n\nSpotter will find:\n\n* {{gtClass:GtWhatMakesBlocSpecialExplanation}}\n* `GtGraphLayout` hierarchy\n* Bloc layout examples\n* Mondrian example snippets\n* All existing 2D layouts in your image\n\n**This is how you discovered the GridLayout example** in your screenshot.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:49:37.195117+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:49:37.195117+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "rOYl1ykADgCmJCA/AIMveA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 2. 🔍 Use Spotter to Find Working Patterns"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:49:27.299248+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:51:23.626345+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "huWO1ikADgCmHbFGAIMveA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "GT uses `<gtExample>` everywhere.\nThis means:\n\n> **Every GT example is executable documentation.**\n\nYou saw:\n\n### ✔️ *classHierarchyWithGridLayout*\n\nShows:\n\n* building a root `BlElement`\n* applying `BLGridLayout`\n* assigning constraints: `c grid horizontal alignCenter`\n* using `root asPannableElement`\n\nThis is gold for learning.\n\n### ✔️ *classHierarchyWithEdges*\n\nShows:\n\n* graph layouts using constraints\n* nodes as regular `BlElement`s\n\n### ✔️ *classHierarchyWithEdgesAndLines*\n\nShows:\n\n* mixing shapes (labels + lines)\n* using Bloc’s explainable layouts for debugging\n\n### You apply this by analogy\n\nYour 2D scatter view is:\n\n* one root element\n* many small elements (dots)\n* positioned / constrained\n* rendered by Bloc (like any other element)\n\nExactly the same dynamics.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:51:23.619489+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:51:23.619489+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Ms593SkADgCmohUKAIMveA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 3. 🧪 Learn From Existing Examples (Moldable Approach)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:51:42.760873+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:51:45.649074+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "VuGh3ikADgCmt2B7AIMveA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Once a Bloc element is created, you can inspect it and open:\n\n* **Metrics View** → size, real pixel bounds\n* **Resizers View** → why does my element have this size?\n* **Measurement Chain** → which parent layout measured this node?\n* **Styles** → colors, borders, fonts\n* **Widget** → how GT wraps the element in a Phlow view\n\nThis teaches the student:\n\n* why their dot appears at (0,0)\n* why elements may overlap\n* why layout may override explicit positions\n* why something may not appear at all\n\nThis is exactly aligned with *What Makes Bloc Special*.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:51:45.639716+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:51:45.639716+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "D8zN3ikADgCmvgUcAIMveA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 4. 🧰 Use Bloc’s Inspector Extensions to Understand Layout Problems"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:48:17.939033+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:52:04.154585+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "QIxs0ikADgCl6mY6AIMveA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The curriculum can give students this “ladder”:\n\n### 1. Run the example\n\nDoes it open?\n\n### 2. If error → open debugger\n\nFind `self`, inspect objects.\n\n### 3. If no debugger → use Process Browser\n\nFind failing process → Debug.\n\n### 4. Identify the failing selector\n\nSearch it in Spotter.\n\n### 5. Find a working example using that selector\n\nOpen example → compare the pattern.\n\n### 6. Copy the working pattern into your code\n\nAdjust root element, children, constraints.\n\n### 7. If layout fails → inspect layout views\n\n“Measurement chain” and “Resizers”.\n\n### 8. Reduce example to 3–4 elements\n\nTest layout on a tiny dataset.\n\n### 9. Scale up to real model (e.g. SOM weights)\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:52:04.147351+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:52:04.147351+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3jXo3ykADgCm4fjZAIMveA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 5. 🪜 Debugging a Failing View: A Repeatable Workflow"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:46:58.228076+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-17T11:52:29.823244+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "cDyszSkADgClw3ODAIMveA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Here is the **student-level explanation** we can insert into the GT Curriculum:\n\n> **GT errors are not roadblocks — they are invitations to explore.**\n> In GT, everything is inspectable: views, layouts, elements, and even the inspector itself.\n>\n> When you see an error:\n>\n> * open the debugger (or Process Browser)\n> * inspect the receiver and arguments\n> * search the failing selector in Spotter\n> * find an example that uses a similar pattern\n> * copy the minimal working pattern into your method\n> * inspect your Bloc element and study its layout/resizers\n>\n> This is how moldable development works:\n> **you never debug by guessing — you debug by seeing.**\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:52:29.812113+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T11:52:29.812113+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UNRv4SkADgCm9tBoAIMveA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 6. 🏁 Summary for the Curriculum"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T12:01:15.908246+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-17T12:01:35.315079+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2WnLACoADgCoGx0JAIMveA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "See Oscar’s remark via discord DM, which is exactly the *philosophy* our curriculum should teach:\n\n> **“A new visualization is almost never written from scratch.\n> You always start from something simple that already works,\n> then adapt and grow it incrementally.”**\n\nBelow is a clean, curriculum-ready articulation of that principle — tied directly to my (RB) SOM/2D-plot debugging experience and to GT’s moldable development mindset.\n---\n\n# 🪜 **How to Create & Debug gtViews the GT Way**\n\n### *(Based on Oscar Nierstrasz’s principle: start from something simple)*\n\nMost GT newcomers fail because they try to **write a full visualization outright**.\nGT experts succeed because they follow a very different pattern:\n\n> **Start from the simplest thing that renders.\n> Then incrementally adapt an existing view\n> (add data → add layout → add widgets).**\n\nLet’s make that a core part of the curriculum.\n\n---\n\n# 1. 🌱 Start With Something Extremely Simple\n\nExample:\n\n```smalltalk\ngtViewPointsOn: aView\n    <gtView>\n    ^ aView text: self printString\n```\n\nIf this renders: ✔️ Good.\nIf it errors: ✔️ Even better — you start debugging *now*, not later.\n\nThis step ensures:\n\n* GT wiring works\n* view is recognized\n* GT’s forwarder can display the result\n\n**Zero Bloc. Zero layouts. No risk.**\n\n---\n\n# 2. 🌿 Replace Text With a Minimal Working Visualization\n\nOnce you can render *anything*, replace it with a minimal Bloc container:\n\n```smalltalk\ngtViewPointsOn: aView\n    <gtView>\n    ^ aView explicit: [ BlElement new ]\n```\n\nStill trivial, but:\n\n* you now entered **Bloc’s rendering tree**\n* debugger + inspector give you Bloc-specific information\n* you can open all layout/metric/resizer inspectors\n\nThis is your base camp.\n\n---\n\n# 3. 🍃 Add One Element (No Layout Yet)\n\n```smalltalk\ngtViewPointsOn: aView\n    <gtView>\n    ^ aView explicit: [\n        | root |\n        root := BlElement new.\n        root addChild: (BlElement new\n            size: 5@5;\n            background: Color blue).\n        root\n    ]\n```\n\nTest with one dot.\n\nIf you see one dot: ✔️\nIf not: inspect `root` → check metrics → check layout.\n\n---\n\n# 4. 🌳 Add Many Elements (Still No Layout)\n\nUse small test data first:\n\n```smalltalk\n{ 10@10 . 50@20 . 30@80 }\n```\n\nThen:\n\n```smalltalk\npts do: [ :p |\n    root addChild: (BlElement new\n        size: 5@5;\n        background: Color blue;\n        position: p).\n]\n```\n\nIf all dots stack at (0,0) → layout is overriding you → inspect root layout.\n\n---\n\n# 5. 🌲 Add a Layout Only When Needed\n\nUse Bloc examples to copy a known pattern (never invent one):\n\nOpen via Spotter:\n\n```\nGtWhatMakesBlocSpecialExplanation\n```\n\nLook at:\n\n* `classHierarchyWithGridLayout`\n* `classHierarchyWithEdges`\n* `classHierarchyWithEdgesAndLines`\n\nEach shows:\n\n* how to build a root element\n* how to apply a layout (`BLGridLayout`, graph layouts, custom constraint layouts)\n* how to call `asPannableElement`\n* how constraints position children\n\nYou now adapt one of these patterns **to your use case**.\n\n---\n\n# 6. 🌲 Branching: Add Data Scaling, Colors, Actions\n\nOnce your minimal view works, *expand it incrementally*:\n\n* scale raw data to match the visual canvas\n* color by class or distance\n* add background grid\n* add click handlers (`onClick:`)\n* add tooltip widgets\n* add legends\n* add pannability (`asPannableElement`)\n* add edge/line overlays\n\nEach step is tiny and testable.\n\nNever jump from nothing → full visualization.\n\n---\n\n# 7. 🌳 When Errors Appear: Debug By *Seeing*, Not By Guessing\n\nUse GT’s strengths:\n\n### **Spotter**\n\nSearch:\n\n* selector causing the error\n* existing examples using that API\n* layouts, constraints, shapes, animals\n* “scatter”, “layout”, “graph”, “pannable”\n\n### **Debugger**\n\nOpen failing view with ⚡:\n\n* inspect `self`\n* inspect `root`\n* inspect each “dot”\n* check children of root\n\n### **Inspector layouts**\n\nOpen on any `BlElement`:\n\n* Metrics\n* Resizers\n* Measurement chain\n* Layout tree\n* Rendering tree\n\nThis tells you:\n\n* why something is at the wrong position\n* why it’s resized\n* why it’s clipped\n* why it doesn’t appear at all\n\nGT is **explainable** — use that.\n\n---\n\n# 8. 🌾 Final Principle (Oscar’s Core Message)\n\n> **“Most gtViews are not new. They are adaptations.”**\n\nSo:\n\n* start with a working example\n* iterate\n* never write a full visualization from scratch\n* always inspect, search, compare, adapt\n\nThis is the GT way — moldable, incremental, explainable.\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-17T11:44:52.342697+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-17T11:44:52.342697+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "How to Correct Errors in GT (Moldable Debugging)"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "59ef90c4-2900-0e00-a4e6-d01200832f78"
+	}
+}

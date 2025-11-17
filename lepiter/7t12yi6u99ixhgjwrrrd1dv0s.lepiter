@@ -114,7 +114,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-17T09:40:13.523663+01:00"
+												"dateAndTimeString" : "2025-11-17T12:48:53.032027+01:00"
 											}
 										},
 										"uid" : {
@@ -124,7 +124,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "Create draft pages describi g Topic Maps and Roadmap visualizations."
+										"string" : "Create draft pages describing Topic Maps and Roadmap visualizations."
 									}
 								]
 							},
