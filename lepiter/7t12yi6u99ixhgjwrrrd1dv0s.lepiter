@@ -114,7 +114,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-17T12:48:53.032027+01:00"
+												"dateAndTimeString" : "2025-11-18T11:42:05.515372+01:00"
 											}
 										},
 										"uid" : {
@@ -124,7 +124,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "Create draft pages describing Topic Maps and Roadmap visualizations."
+										"string" : "Create draft pages describing [[Topic Maps and Roadmap visualizations]]."
 									}
 								]
 							},
@@ -222,7 +222,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-18T10:12:50.072352+01:00"
+									"dateAndTimeString" : "2025-11-18T11:44:02.026317+01:00"
 								}
 							},
 							"uid" : {
@@ -232,7 +232,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Expand Learning module 1 as a tree of pages."
+							"string" : "Expand Learning module 1 as a tree of pages. See {{gtPage:Learning Module 1 Expansion|db=c72hpbcsarp76bsez1znvtuex}}"
 						},
 						{
 							"__type" : "textSnippet",
@@ -371,7 +371,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-17T09:43:24.313889+01:00"
+									"dateAndTimeString" : "2025-11-18T11:47:37.402511+01:00"
 								}
 							},
 							"uid" : {
@@ -381,7 +381,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Summarize what are the main things to learn about GT as opposed to the technical side issues"
+							"string" : "Summarize what are the main things to learn about GT as opposed to the technical side issues. See {{gtPage:GT Core Concepts vs Technical Side Issues|db=c72hpbcsarp76bsez1znvtuex}}"
 						},
 						{
 							"__type" : "textSnippet",

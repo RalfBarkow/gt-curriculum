@@ -1,0 +1,111 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:46:36.643151+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:46:41.890977+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fEs66j0ADgCWBYIgDsslhA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Learn the basics of Glamorous Toolkit"
+			},
+			{
+				"__type" : "commentSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:28:54.695096+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:29:17.12349+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6EDuqj0ADgCpEFxMBaOCxQ=="
+				},
+				"string" : "* *Main Path*:\n\n  1. [[What is GT?]]\n  2. Inspecting objects\n  3. Playgrounds\n  4. Domain modelling basics\n  5. Creating first views\n  6. Using examples\n\n* *Side Roads*:\n\n  * Mondrian basics\n  * Sceneries basics\n  * Topic Maps basics\n  * Accordion pattern\n\nThis gives structure to everything else.",
+				"isHidden" : false
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-18T11:28:42.407854+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-18T11:28:42.407854+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Learning Module 1"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "ddc232aa-3d00-0e00-a90d-ecee05a382c5"
+	}
+}

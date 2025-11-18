@@ -114,6 +114,43 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Each module comprises a *main path* through the material and possible *side roads*.\nSide roads consist of additional supporting material that can be pursued or skipped, depending on the background of the student, or the specific interests or problems they have at had.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:51:36.372335+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:51:49.168525+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pcwX/D0ADgCXFr3QDsslhA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "See also [[Learning flow and integration]] / [[Learning Module 1]]"
 			}
 		]
 	},

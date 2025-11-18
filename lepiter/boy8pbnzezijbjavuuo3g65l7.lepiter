@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T11:25:12.021685+01:00"
+						"dateAndTimeString" : "2025-11-18T11:23:06.398359+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T11:42:44.011083+01:00"
+						"dateAndTimeString" : "2025-11-18T11:23:16.345294+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "5IaonT0ADgCnujs7BaOCxQ=="
+					"uidString" : "yqorlj0ADgCnMPjaBaOCxQ=="
 				},
-				"string" : "* Add the new page on *Topic Maps* to the GT Book.\n* Create draft pages explaining:\n  * Topic Maps (concepts, usage)\n  * Roadmap visualizations\n  * Navigation & querying guidelines for roadmaps\n* Connect Topic Maps to GT Book’s *Learning Paths* and *Sceneries*.",
+				"string" : "* [[Accordion]] metaphor as a formal pattern:\n\n  * Inspect → code → dive → extract methods → return\n* Need a **tutorial use case** (TG provided Slack pointers).",
 				"isHidden" : false
 			}
 		]
@@ -49,7 +49,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+			"dateAndTimeString" : "2025-11-18T11:22:59.170034+01:00"
 		}
 	},
 	"editEmail" : {
@@ -60,15 +60,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+			"dateAndTimeString" : "2025-11-18T11:22:59.170034+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Topic Maps and Roadmap visualizations"
+		"title" : "Patterns"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "e56bac91-3c00-0e00-821d-23600a0e6753"
+		"uuid" : "cb5dbd95-3d00-0e00-a72d-a96905a382c5"
 	}
 }

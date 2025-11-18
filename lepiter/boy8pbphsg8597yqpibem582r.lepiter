@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T11:25:12.021685+01:00"
+						"dateAndTimeString" : "2025-11-18T11:24:44.297584+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T11:42:44.011083+01:00"
+						"dateAndTimeString" : "2025-11-18T11:24:45.703391+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "5IaonT0ADgCnujs7BaOCxQ=="
+					"uidString" : "x30BnD0ADgCnqljSBaOCxQ=="
 				},
-				"string" : "* Add the new page on *Topic Maps* to the GT Book.\n* Create draft pages explaining:\n  * Topic Maps (concepts, usage)\n  * Roadmap visualizations\n  * Navigation & querying guidelines for roadmaps\n* Connect Topic Maps to GT Book’s *Learning Paths* and *Sceneries*.",
+				"string" : "* **Gentle Intro to ST** improvement based on Discord feedback.\n* Add *Design Principles Behind Smalltalk* to History.\n* Recycle / adapt **zeniko**’s GT descriptions.\n* **Mondrian tutorial**:\n\n  * Finding elements\n  * Prototyping & layout changes\n  * Tooltips\n  * Extracting methods\n  * Parametrizing selection\n  * Exporting as PNG\n* **TreePager demo page**:\n\n  * Based on Discord examples (Nov 15–17, 2025)",
 				"isHidden" : false
 			}
 		]
@@ -49,7 +49,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+			"dateAndTimeString" : "2025-11-18T11:24:33.957729+01:00"
 		}
 	},
 	"editEmail" : {
@@ -60,15 +60,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+			"dateAndTimeString" : "2025-11-18T11:24:33.957729+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Topic Maps and Roadmap visualizations"
+		"title" : "Lower-priority pages"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "e56bac91-3c00-0e00-821d-23600a0e6753"
+		"uuid" : "23b6639b-3d00-0e00-a7a7-ff9b05a382c5"
 	}
 }

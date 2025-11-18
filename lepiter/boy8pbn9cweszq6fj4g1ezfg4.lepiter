@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T11:25:12.021685+01:00"
+						"dateAndTimeString" : "2025-11-18T11:30:15.097052+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T11:42:44.011083+01:00"
+						"dateAndTimeString" : "2025-11-18T11:30:19.429696+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "5IaonT0ADgCnujs7BaOCxQ=="
+					"uidString" : "Dhe5rz0ADgCpiEGjBaOCxQ=="
 				},
-				"string" : "* Add the new page on *Topic Maps* to the GT Book.\n* Create draft pages explaining:\n  * Topic Maps (concepts, usage)\n  * Roadmap visualizations\n  * Navigation & querying guidelines for roadmaps\n* Connect Topic Maps to GT Book’s *Learning Paths* and *Sceneries*.",
+				"string" : "Once LM1 has its structure written down (even as bullet points), I can generate:\n\n* A Scenery definition\n* An interactive Scenery visualization\n* Derived roadmap navigation pages\n\nThis solves the “beginner orientation” problem.",
 				"isHidden" : false
 			}
 		]
@@ -49,7 +49,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+			"dateAndTimeString" : "2025-11-18T11:30:08.450571+01:00"
 		}
 	},
 	"editEmail" : {
@@ -60,15 +60,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+			"dateAndTimeString" : "2025-11-18T11:30:08.450571+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Topic Maps and Roadmap visualizations"
+		"title" : "Generate a Scenery from the LM1 tree"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "e56bac91-3c00-0e00-821d-23600a0e6753"
+		"uuid" : "f4aa53af-3d00-0e00-a985-895105a382c5"
 	}
 }

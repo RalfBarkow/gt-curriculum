@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T11:25:12.021685+01:00"
+						"dateAndTimeString" : "2025-11-18T11:48:05.913381+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T11:42:44.011083+01:00"
+						"dateAndTimeString" : "2025-11-18T11:48:07.218948+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "5IaonT0ADgCnujs7BaOCxQ=="
+					"uidString" : "VXOM7z0ADgCWYzUgDsslhA=="
 				},
-				"string" : "* Add the new page on *Topic Maps* to the GT Book.\n* Create draft pages explaining:\n  * Topic Maps (concepts, usage)\n  * Roadmap visualizations\n  * Navigation & querying guidelines for roadmaps\n* Connect Topic Maps to GT Book’s *Learning Paths* and *Sceneries*.",
+				"string" : "Explore an existing case study to answer questions.",
 				"isHidden" : false
 			}
 		]
@@ -49,7 +49,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+			"dateAndTimeString" : "2025-11-18T11:47:52.204134+01:00"
 		}
 	},
 	"editEmail" : {
@@ -60,15 +60,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+			"dateAndTimeString" : "2025-11-18T11:47:52.204134+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Topic Maps and Roadmap visualizations"
+		"title" : "What is GT?"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "e56bac91-3c00-0e00-821d-23600a0e6753"
+		"uuid" : "cc41bbee-3d00-0e00-965f-a48f0ecb2584"
 	}
 }

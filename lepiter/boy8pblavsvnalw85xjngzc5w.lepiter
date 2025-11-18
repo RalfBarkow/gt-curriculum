@@ -1,0 +1,148 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:45:52.646874+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:46:22.788903+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "DPea5z0ADgCVo62fDsslhA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: [[Learning flow and integration]] / Phase 1 — Orientation and Foundations"
+			},
+			{
+				"__type" : "commentSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:19:35.748761+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:38:58.022753+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "y2idiT0ADgCmLhxFBaOCxQ=="
+				},
+				"string" : "* Expand LM1 as a **tree of pages**.\n* Decide on naming of:\n  *Units, Steps, Side Roads, Main Path*.\n* Represent as:\n  * One main path (beginner progression)\n  * Multiple side-roads (deep dives, tools)\n* Generate a **visual learning map** using Scenery. See {{gtPackage:GToolkit-Scenery}}",
+				"isHidden" : false
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:44:53.247591+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:45:13.688377+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "m5oQ5D0ADgCVE5QFDsslhA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "See also [[Learning Module]] / [[Learning Module 1]]"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-18T11:19:26.572938+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-18T11:38:56.67266+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Learning Module 1 Expansion"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "54641189-3d00-0e00-a62b-4b1005a382c5"
+	}
+}
