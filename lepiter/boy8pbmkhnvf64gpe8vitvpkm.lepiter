@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T11:31:24.059461+01:00"
+						"dateAndTimeString" : "2025-11-18T12:45:43.638503+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "ypugsz0ADgCp9tlTBaOCxQ=="
 				},
-				"string" : "We provide:\n\n* A list of components and user needs (which you already wrote)\n  I produce:\n* Wardley Map diagram\n* GT Newcomer Value Chain description\n* Explanation how GT fits the evolution model\n\nMinimal effort for a high clarity payoff.",
+				"string" : "We provide:\n\n* A list of components and user needs (which we already wrote)\n  We produce:\n* Wardley Map diagram\n* GT Newcomer Value Chain description\n* Explanation how GT fits the evolution model\n\nMinimal effort for a high clarity payoff.",
 				"isHidden" : false
 			},
 			{
