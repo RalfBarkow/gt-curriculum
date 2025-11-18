@@ -1,0 +1,150 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:11:26.58128+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:11:49.050189+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wZ7hlTwADgCCPer0Cg5nUw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## **Topic Maps & Roadmaps**\n\n* Add a new *Topic Maps* page to the GT Book.\n* Create draft pages explaining:\n\n  * Topic Maps (concepts, usage)\n  * Roadmap visualizations\n  * Navigation & querying guidelines for roadmaps\n* Connect Topic Maps to GT Book’s *Learning Paths* and *Sceneries*.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:01:36.986589+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:01:36.986589+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OMdQST0ADgCfI5L/BaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 2. **Learning Unit 1 Expansion**\n\n* Expand LU1 as a **tree of pages**.\n* Decide on naming of:\n  *Units, Steps, Side Roads, Main Path*.\n* Represent as:\n\n  * One main path (beginner progression)\n  * Multiple side-roads (deep dives, tools)\n* Generate a **visual learning map** using Scenery.\n\n## 3. **GT Core Concepts vs Technical Side Issues**\n\n* Extract the essential “What is GT?” points:\n\n  * GT as an environment for *explainable systems*\n  * Case study as anchor\n  * Domain modelling + live exploration\n  * Lepiter + playgrounds\n  * Creating contextual tools (views, actions, searches)\n  * Side roads:\n\n    * Language workbenches\n    * Mondrian\n    * Sceneries\n    * Examples\n\n## 4. **Patterns**\n\n* Accordion metaphor as a formal pattern:\n\n  * Inspect → code → dive → extract methods → return\n* Need a **tutorial use case** (TG provided Slack pointers).\n\n## 5. **Wardley Mapping for GT Newcomers**\n\nCreate a Wardley Map including:\n\n* User needs (Newcomers)\n* Value chain:\n\n  * GT Book\n  * Personal KB / Lepiter\n  * MD IDE & coding tools\n  * Bloc GUI\n  * EDD (Example Driven Development)\n  * MD methodology\n  * GitHub + OS (commodities)\n* Identify evolution stages for each.\n\n## 6. **Lower-priority pages**\n\n* **Gentle Intro to ST** improvement based on Discord feedback.\n* Add *Design Principles Behind Smalltalk* to History.\n* Recycle / adapt **zeniko**’s GT descriptions.\n* **Mondrian tutorial**:\n\n  * Finding elements\n  * Prototyping & layout changes\n  * Tooltips\n  * Extracting methods\n  * Parametrizing selection\n  * Exporting as PNG\n* **TreePager demo page**:\n\n  * Based on Discord examples (Nov 15–17, 2025)\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:10:27.815484+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:01:37.006584+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3ZSukTwADgCCHqhKCg5nUw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "---\n\n# ✔ Implicit Structural Themes (very relevant for curriculum design)\n\nThese appear across the notes and should become formal structural categories:\n\n### A. **Main Path vs Side Roads**\n\nMain path = Minimal conceptual backbone for Newcomers\nSide roads = Explorations:\n\n* Mondrian\n* Sceneries\n* Language Workbenches\n* Inspector coding pattern\n* Topic Maps\n* Roadmaps\n* Domain modelling patterns\n  → These become *optional chapters*.\n\n### B. **Navigation Metaphors**\n\n* Accordion (micro-cycle)\n* Roadmaps (macro-structure)\n* Trees / branches (Learning Units)\n* Sceneries (auto-generated learning flow)\n* Topic Maps (semantic linking)\n  → All four need unified terminology.\n\n### C. **Generated Visual Maps**\n\n* Sceneries for Learning Unit maps\n* Mondrian views for structure exploration\n* Roadmaps for high-level navigation\n\n### D. **Beginner Orientation**\n\nWhat must a newcomer learn:\n\n1. GT mental model\n2. Navigation in GT\n3. Domain model creation\n4. Contextual tools & views\n5. Examples & playgrounds\n6. Side roads\n\n---\n\n# ✔ Recommended Next Steps (focused + minimal friction)\n\n## **Step 1 — Formalize Learning Unit 1 as a Tree**\n\nCreate:\n\n**Learning Unit 1**\n\n* *Main Path*:\n\n  1. What is GT?\n  2. Inspecting objects\n  3. Playgrounds\n  4. Domain modelling basics\n  5. Creating first views\n  6. Using examples\n\n* *Side Roads*:\n\n  * Mondrian basics\n  * Sceneries basics\n  * Topic Maps basics\n  * Accordion pattern\n\nThis gives structure to everything else.\n\n---\n\n## **Step 2 — Draft the Topic Maps integration**\n\nProduce:\n\n* GT Book page: *“Topic Maps in GT”*\n* GT Book page: *“Roadmap Visualizations”*\n* Short guideline page: *“How to navigate & query roadmaps”*\n\nThese three unlock many other dependencies.\n\n---\n\n## **Step 3 — Generate a Scenery from the LU1 tree**\n\nOnce LU1 has its structure written down (even as bullet points), I can generate:\n\n* A Scenery definition\n* An interactive Scenery visualization\n* Derived roadmap navigation pages\n\nThis solves the “beginner orientation” problem.\n\n---\n\n## **Step 4 — Write the Accordion pattern page**\n\nVery small effort, high value.\nInclude:\n\n* Intent\n* Problem\n* Forces\n* Solution\n* Examples (Inspector + code + extraction)\n* Side road links (language workbench, Mondrian)\n\n---\n\n## **Step 5 — Produce the Wardley Map (first draft)**\n\nYou provide:\n\n* A list of components and user needs (which you already wrote)\n  I produce:\n* Wardley Map diagram\n* GT Newcomer Value Chain description\n* Explanation how GT fits the evolution model\n\nMinimal effort for a high clarity payoff.\n\n---\n\n## **Step 6 — Start with one low-priority topic**\n\nPick the one with best signal/noise:\n\n→ I suggest **Mondrian tutorial**, because it ties to Sceneries, Topic Maps, roadmaps, and code exploration.\n\n---\n\n# ✔ Summary of Immediate Next Steps (short)\n\n1. **Define LU1 as a tree of pages** (I can help generate the structure).\n2. **Draft Topic Maps + Roadmaps pages**.\n3. **Generate a Scenery for LU1**.\n4. **Write the Accordion pattern page**.\n5. **Create the Wardley Map for GT newcomers**.\n\nThis will give you:\n\n* Structure\n* Navigation\n* Orientation\n* Patterns\n* A consistent curriculum spine\n\nEverything else can attach to these five steps.\n\n---\n\nIf you want, I can now:\n\n### → generate the LU1 tree\n\n### → generate Topic Maps page drafts\n\n### → generate Scenery definition\n\n### → generate Wardley map\n\n### → generate Accordion pattern page\n\nJust say **“Start with LU1 tree”** or **“Start with Topic Maps pages”**, or specify the item.\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Topic Maps and Roadmap visualizations"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "e56bac91-3c00-0e00-821d-23600a0e6753"
+	}
+}

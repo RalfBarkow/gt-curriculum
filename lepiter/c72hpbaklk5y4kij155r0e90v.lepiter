@@ -385,6 +385,43 @@
 											"__type" : "textStyle"
 										},
 										"string" : "[[Open pure git repository]]"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-18T11:16:37.122119+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-18T11:16:38.473871+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "6sL3fj0ADgCjRBjSBaOCxQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "{{gtPage:Falsifier findings|db=c72hpbcsarp76bsez1znvtuex}}"
 									}
 								]
 							},
@@ -407,7 +444,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-10T22:27:00.472401+01:00"
+									"dateAndTimeString" : "2025-11-18T11:16:52.114124+01:00"
 								}
 							},
 							"uid" : {
@@ -417,7 +454,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[My path through the GT Book]]"
+							"string" : "[[My path through the GT Book]] and this curriculum"
 						},
 						{
 							"__type" : "textSnippet",

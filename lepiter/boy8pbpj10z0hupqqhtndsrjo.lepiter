@@ -1,0 +1,1086 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:44:40.780555+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:45:52.411977+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Pbu+DD0ADgCbN3Z1BaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:GtLearningPath}} and [[Learning Module]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:46:35.130634+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T11:07:02.804152+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "34yPEz0ADgCcb11pBaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "There are **multiple incompatible abstractions** for what a “learning unit/module/path/lesson” is.\n\nEvidence:\n\n* You have **GtLearningPath** classes with fields like `prerequisites`, `segments`, `problemStatement`, `resources`, etc. See {{gtClass:GtLearningPath}}\n  → This suggests a *formal* structure.\n\n* But Lepiter pages talk about:\n  “learning modules that target newcomers with specific problems…” \n  → These are narrative outlines, not instances of GtLearningPath.\n\n* Another page uses “*teaching units*” (outdated terminology).\n\n* Another page refers to “[[Lessons]]”.\n\n* Roadmaps generate “Topics / Fields / Kinds”.\n\nNone of these are mapped to each other.\n\n**Conclusion:**\nWe currently have **four overlapping but disjoint schemas** for educational units.\n\nThis falsifies the idea that the curriculum “has a clear structure”.\nIt does not.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:46:39.97823+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:05:45.626801+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+YTZEz0ADgCceFeYBaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ❌ Falsifier Finding 1 — The curriculum does not yet have *a standardised model*"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:47:27.309087+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T11:07:47.649274+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "0rqrFj0ADgCcj/gIBaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Repeatedly the files in this repository state:\n\n> “Currently there exists only a topic map for the GT book.” \n\nBut your curriculum pages *depend* on Topic Maps to:\n\n* classify modules\n* reuse snippets\n* drive Sceneries\n* drive Roadmap overlays\n* allow multi-page narrative flows\n* power the Accordion pattern’s cross-references\n\nYet:\n\n* There is **no topic map for the curriculum itself**.\n* The GT Book topic map is treated as a *proxy* to organize curriculum pages — but curriculum pages aren't part of its database.\n* JSON update processes are documented, but not integrated.\n\nThis means:\n\n**The curriculum cannot yet use Topic Maps as its navigation spine.**\nIt is structurally impossible with the current data model.\n\nThis falsifies the idea that Topic Maps are “core infrastructure” for the curriculum.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:47:31.309199+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:47:31.309199+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Y8XoFj0ADgCclxo0BaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ❌ Falsifier Finding 2 — Topic Map usage is *incomplete, non-authoritative, and non-actionable*"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:48:00.2955+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:48:04.810396+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "XhCjGD0ADgCcrT/2BaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Two independent statements occur:\n\n* “Write up the Accordion metaphor as a *pattern*.” \n* “The [[Accordion]] for example, references a page in the GT book… snippets should be reused…” \n\nThis reveals:\n\n* Accordion is referenced\n* Accordion is relied on\n* Accordion is placed in topic maps\n* Accordion is considered a page\n* But **Accordion does not yet exist as a defined pattern**\n\nIf the curriculum claims to teach “moldable development thinking” (which hinges on Accordion), but the pattern does not exist:\n\n**The curriculum currently lacks one of its foundational concepts.**\n\nThis falsifies the premise that “the core GT workflow pattern is established”.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:48:04.804575+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:48:04.804575+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2d3nGD0ADgCctcYKBaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ❌ Falsifier Finding 3 — The Accordion pattern appears but is not defined"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:48:34.436827+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:48:37.769219+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "rgWsGj0ADgCcy9jUBaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "There is a “You will learn:” list:\n\n* domain modeling\n* data import\n* creating small tools\n* reflecting on exploration process\n\n\nHowever:\n\n* This is free-floating.\n* No learning module actually adopts these outcomes.\n* No assessments map back to them.\n* No module claims ownership of one or more of these outcomes.\n\n**This breaks the educational chain: goal → activity → assessment.**\n\nThis falsifies the existence of a “curriculum spine”.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:48:37.762682+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:48:37.762682+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "jsTeGj0ADgCc0gjSBaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ❌ Falsifier Finding 4 — Learning Outcomes exist but are not connected to modules"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:49:08.400905+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T11:10:28.72927+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "SEWyHD0ADgCc7sPiBaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The repo shows a substantial analysis of **gtoolkit-roadmaps**:\nfields, topics, kinds, TM nodes, Mondrian views, JSON clustering, etc.\n\n\nYet:\n\n* Curriculum modules do not use {{gtClass:TMPageNode}}, {{gtClass:TMTopicNode}}, or clusters.\n* Curriculum structure is not mapped to GT Book’s topics/kinds.\n* The “roadmap overlay” question appears unanswered:\n  *“Can the timelineItems helper drive an actual GtRoadmapView overlay…?”* \n\nThis means:\n\n**Roadmaps are understood but not exploited.**\nYou have infrastructure but no adaptation layer.\n\nThis falsifies the idea that the curriculum “builds on existing GT navigation tools”.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:49:02.82924+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:49:02.82924+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "C0FdHD0ADgCc55eoBaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ❌ Falsifier Finding 5 — Roadmaps knowledge appears in the repo, but is not integrated"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:49:22.916578+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:49:32.846986+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "U8OPHT0ADgCc/2U/BaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The AGENTS.md section states that the curriculum depends on:\n\n* pure-git teaching units\n* DITA round-trips\n* codex repo content\n\n\nBut:\n\n* None of these have been imported into the GT curriculum.\n* The curriculum repo itself contains no DITA manifests.\n* No cross-links from curriculum pages to Pure Git pages exist.\n* “Bootstrap my repo with Pure Git” is listed as a teaching unit — but is not being fleshed out in this repo.\n\nThis contradictory state falsifies:\n\n**“This repo contains the teaching units.”**\n\nThey are referenced, not present.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:49:32.840204+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:49:32.840204+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Qi8nHj0ADgCdCnQtBaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ❌ Falsifier Finding 6 — External dependencies (Codex, Pure Git, DITA) are referenced but not integrated"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:50:11.253227+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T11:11:49.682927+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "90txID0ADgCdH7U9BaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Statements include:\n\n* “Newcomers are our customer base.” \n* “Modules that target newcomers with specific problems…” \n\nBut:\n\n* No newcomer personas exist.\n* No newcomer use-cases are mapped.\n* No module actually declares who it is for.\n\nThus the curriculum *claims* newcomer orientation, but:\n\n**No learner profile exists, so nothing can be optimized for them.**\n\nSee [[Newcomer Profile]]\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:50:16.366601+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:50:16.366601+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yVi/ID0ADgCdK6F6BaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ❌ Falsifier Finding 7 — No newcomer model, but multiple assertions about newcomers\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:51:25.883786+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T11:12:42.797996+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "mxfkJD0ADgCdQAomBaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "You have:\n\n### A. Code for structuring learning paths\n\n{{gtClass:GtLearningPath}} Smalltalk class with metadata fields and no examples.\n\n\n### B. Lepiter pages containing narrative text\n\nMultiple pages in `lepiter/*.lepiter` describing modules, plans, todos.\n\n### C. JSON topic maps in gtoolkit-roadmaps\n\nFiled independently.\n\n### D. Demos intended for gtoolkit-demos repo.\n\nBut there is **no mechanism to link**:\n\n* A {{gtClass:GtLearningPath}} instance\n* To a Lepiter page\n* To a Topic Map node\n* To a demo script\n* To a learning outcome list\n\nThis falsifies the assumption that the curriculum exists as a *unified system*.\n\nIt is currently *four separate collections of artifacts*.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:52:59.011942+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:52:59.011942+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sRhxKj0ADgCdR0X4BaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ❌ Falsifier Finding 8 — Structural split between code and content with no glue"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:53:22.275261+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:53:25.389559+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "JhbUKz0ADgCdXFtdBaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The flake snippet exists:\n\n\nBut:\n\n* It only provides devShell convenience (repomix, git, node).\n* There is no build pipeline for:\n\n  * generating Lepiter → Markdown → DITA\n  * verifying broken references\n  * synchronizing topic map JSON\n  * exporting Mondrian views used in lessons\n  * producing outputs for GT Book import\n\nThus:\n\n**The curriculum cannot be published or validated yet.**\n\nThis falsifies the notion of “curriculum deliverables”.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:53:25.38466+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:53:25.38466+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OoIDLD0ADgCdY9M7BaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ❌ Falsifier Finding 9 — The curriculum’s build & deployment pipeline is undefined"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:53:47.106741+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:53:49.982017+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "UvpOLT0ADgCdePqBBaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "You mention:\n\n* mirrored FedWiki pages for “teaching unit” pages (outdated terminology)\n\n\n* learning modules in Lepiter\n\n* teaching-unit outlines from the Codex repo\n\n* GT Book tutorial pages\n\n* problem-driven onboarding sprints\n\n* segments in GtLearningPath\n\nThese have overlapping structure but incompatible terminology.\n\nThus:\n\n**The curriculum currently contains competing organizational systems.**\n\nThis falsifies the claim that the project “knows how the curriculum is structured”.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:53:49.978151+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:53:49.978151+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "rsx6LT0ADgCdfyhWBaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ❌ Falsifier Finding 10 — Teaching plan inconsistency"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:54:58.936651+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:54:58.936651+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IQWXMT0ADgCdlCfEBaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ✔ Falsifier Synthesis\n\nThe core claim implicit in your repo is:\n\n> “The gt-curriculum repository contains the beginnings of a newcomer-oriented curriculum, structured as learning modules, integrated with Topic Maps, Roadmaps, teaching patterns (Accordion), demos, GT Book material, and existing Q/A workflows.”\n\nThis claim is **false** according to the current repo state.\n\nInstead, the repo contains:\n\n* fragments of narrative\n* isolated class definitions\n* TODOs\n* references to external repos\n* partial outlines\n* unimplemented patterns\n* unintegrated navigation infrastructure\n* mismatched terminology\n* no assessment system\n* no newcomer model\n* no unified build pipeline\n\nThis is not yet a curriculum — it is a **proto-curriculum design workspace**.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:55:56.005221+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:57:59.146015+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "JtL9ND0ADgCdu3XgBaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "## **Step 1 — Define exactly ONE authoritative structure**\n\nEither:\n\n**A. GtLearningPath IS the canonical structure**\n→ Then all Lepiter modules must become instances, Topic Maps must point to them, and Roadmaps must generate {{gtClass:GtLearningPath}} overlays.\n\nor\n\n**B. Learning Modules (Lepiter pages) ARE canonical**\n→ Then write a spec for how they relate to Topic Maps, Outcomes, Demos.\n\nPick *one*.\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:56:02.029919+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:56:02.029919+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ZrhZNT0ADgCdyXb0BaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "## **Step 2 — Create a Curriculum Topic Map (missing!)**\n\nYou already know the schema from GT Book maps.\nMake:\n\n`gt-curriculum-topic-map.json`\n\nNodes:\n\n* Learning Modules\n* Patterns (Accordion)\n* Concepts (Domain modeling, Views, Mondrian, Sceneries)\n* Demos\n* Newcomer flows\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:56:06.441819+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:56:06.441819+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "5xGdNT0ADgCd173PBaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "## **Step 3 — Write the Accordion pattern**\n\nThis unblocks:\n\n* navigation\n* cross-page reuse\n* Roadmap overlays\n* automated snippet extraction\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:56:10.276932+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:58:49.937004+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "4ZbXNT0ADgCd5WN5BaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "## **Step 4 — Create a “Newcomer Profile” page**\n\nTwo personas minimum:\n\n* “GT-curious developer”\n* “Domain expert with no coding experience”\n\nSee [[Newcomer Profile]]\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:55:31.799433+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T10:56:11.937508+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "yWiMMz0ADgCdpm1cBaOCxQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "## **Step 5 — Connect one module end-to-end**\n\nPick LM1 and wire:\n\n* Lepiter page\n* GtLearningPath\n* Demo code\n* Topic map node\n* Roadmap view\n* \"You will learn\"\n* Assessment\n\nProve the architecture once.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:55:45.431225+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T10:55:45.431225+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2WpcND0ADgCdsfiUBaOCxQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# ✔ What to fix first (Falsifier’s prescription)"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-18T10:43:12.193334+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-18T11:04:21.953897+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Falsifier findings"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "7473ff04-3d00-0e00-9b1c-259d05a382c5"
+	}
+}
