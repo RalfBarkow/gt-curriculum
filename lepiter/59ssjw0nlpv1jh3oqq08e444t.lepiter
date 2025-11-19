@@ -1,0 +1,187 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T15:04:27.549002+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T15:04:49.770508+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gFGhy1QADgCgxtncCPLWDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: [wiki](https://pov.dreyeck.ch/view/welcome-visitors/view/point-of-view)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T14:56:06.2446+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T14:56:06.2446+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "t/+/rVQADgCgom/1CPLWDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "**POV (Point of View)**\nIn the sense relevant here — drawn from **Korz** and **context-oriented programming** — a *POV* (“point of view”) is a *contextual coordinate* that parameterizes evaluation.\nFormally, it is an explicit *dimension* in the slot space that determines which slots (behaviors, data, interpretations) are visible during computation.\nUngar & Adams write that Korz aims for *subjective behavior*, where “objects may behave differently depending on the perspective from which they are viewed,” implemented via dimensions in the slot address (e.g., `rcvr`, `sender`, `context`, etc.)【Ungar & Adams 2010†source】【Ungar 2014†source】.\n\nIn a philosophical sense, “POV” corresponds to *observer dependence*: every evaluation happens from some viewpoint, with its own implicit distinctions (compare Heinz von Foerster’s “the observer is part of the system observed” and Ranulph Glanville’s “self-other bridge” model).\n\nSo:\n\n> **POV** = the explicit representation of an observer’s current interpretive context in a computation.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T14:57:48.824933+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T14:57:48.824933+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "7jvds1QADgCgtbr9CPLWDQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "**Multi-POV (Multiple Points of View)**\n*Multi-POV* refers to systems that maintain and combine *several simultaneous perspectives* instead of privileging one.\nIn Korz terms, this means the slot space can contain multiple `pov` coordinates at once — allowing *subjective dispatch* from different vantage points, and *ensemble combination* of their results.\n\nUngar’s “sea of slots” explicitly supports this kind of pluralism:\n\n> “Different interpreters can explore the same slot space concurrently, each with its own perspective.  Their views overlap but need not coincide.”【Ungar 2014 §3.4†source】\n\nBricken’s *Illusory Forms* and Kauffman’s *Laws of Form* likewise treat reality as a multiplicity of distinctions coexisting; a *multi-POV* computational model embodies that by letting multiple boundaries (POVs) operate and reconcile dynamically — producing equilibrium via ensemble combination (see *future work: Ensembles* in Korz 2014 §7).\n\nSo:\n\n> **Multi-POV** = a computational regime where several distinct but co-present perspectives evaluate and interact within the same system, potentially combining through Korz’s ensemble mechanisms to form a coherent “subjective object.”\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T13:51:20.15548+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T14:57:51.952373+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wWE79cb/DQCphXpdBdgNWQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "**Summary table**\n\n| Term      | In Korz                                                                               | Conceptual analogue                  | Reference                                                                   |\n| --------- | ------------------------------------------------------------------------------------- | ------------------------------------ | --------------------------------------------------------------------------- |\n| POV       | A coordinate (dimension) representing the current perspective or context for dispatch | Observer, context, standpoint        | Ungar & Adams 2010 §4 “Adverbs and Context”; Ungar 2014 §3.2 “Subjectivity” |\n| Multi-POV | Multiple active POVs whose results may be combined                                    | Plural observers, dialogic cognition | Ungar 2014 §7 “Future Work: Ensembles”; Bricken 1993 *Illusory Forms*       |\n\nIn short, **POV** is a computational locus of subjectivity; **multi-POV** is the coexistence and interaction of several such loci within the same world of computation.\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-12T13:54:01.07959+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-13T09:34:27.988072+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "POV (Point of View)"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "ed5b3bf5-c6ff-0d00-a984-1d6305d80d59"
+	}
+}
