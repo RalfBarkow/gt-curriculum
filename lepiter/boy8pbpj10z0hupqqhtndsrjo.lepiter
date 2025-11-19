@@ -221,7 +221,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-18T10:48:04.810396+01:00"
+									"dateAndTimeString" : "2025-11-19T10:44:09.538865+01:00"
 								}
 							},
 							"uid" : {
@@ -231,7 +231,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Two independent statements occur:\n\n* “Write up the Accordion metaphor as a *pattern*.” \n* “The [[Accordion]] for example, references a page in the GT book… snippets should be reused…” \n\nThis reveals:\n\n* Accordion is referenced\n* Accordion is relied on\n* Accordion is placed in topic maps\n* Accordion is considered a page\n* But **Accordion does not yet exist as a defined pattern**\n\nIf the curriculum claims to teach “moldable development thinking” (which hinges on Accordion), but the pattern does not exist:\n\n**The curriculum currently lacks one of its foundational concepts.**\n\nThis falsifies the premise that “the core GT workflow pattern is established”.\n"
+							"string" : "Two independent statements occur:\n\n* “Write up the Accordion metaphor as a *pattern*.” \n* “The [[Accordion Metaphor]] for example, references a page in the GT book… snippets should be reused…” \n\nThis reveals:\n\n* Accordion is referenced\n* Accordion is relied on\n* Accordion is placed in topic maps\n* Accordion is considered a page\n* But **Accordion does not yet exist as a defined pattern**\n\nIf the curriculum claims to teach “moldable development thinking” (which hinges on Accordion), but the pattern does not exist:\n\n**The curriculum currently lacks one of its foundational concepts.**\n\nThis falsifies the premise that “the core GT workflow pattern is established”.\n"
 						}
 					]
 				},

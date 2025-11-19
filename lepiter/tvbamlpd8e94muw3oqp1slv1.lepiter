@@ -18,6 +18,117 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T10:44:10.723832+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T10:45:18.916734+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+KP1h5ViQRyCsCOV1bCQVw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The “Accordion Metaphor” refers to the practice of diving into a sequence of Miller columns of Inspectors, by writing code in playgrounds (expanding the accordion) and extracting methods from those playgrounds (squeezing back the squeezebox). "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T10:45:20.583726+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T10:46:27.3665+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4IBMZS2LT/GkZ/92FaiYIw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "TG explains: I use the GitHub API exercise. When we expand, we have a question on the left and find the answer on the right. When we find the answer it is important to not leave the answer in our head but rather consolidate it in the system. There are 5 moves to collapse a flow\n(i) Extend the snippet script on the left\n(ii) Extract method from contextual snippet\n(iii) Create class from snippet\n(iv) Create view/action from inspector\n(v) Extract example from global page snippet\nAt Lifeware, most people do not collapse the flow and they have the problem of having many tabs with many panes open at a time. Collapsing mostly solves the problem.\nA thing to note about this process is that it shows how it fits with TDD as well. The starting point can be a snippet or it can be an example. When we start with an example, we first move it to a Lepiter snippet and continue from there. The end move is to come back to the example/test. This was what we learnt at lifeware, as they were concerned that working in the inspector/playground does not lead to tests. And now we know there is no contradiction.\nFurthermore we also know why TDD is incomplete: when the test fails we need to know why it fails; but that is not addressed by it. It also becomes obvious that starting with the test is often not useful, so the debate of whether to test-first or not is also shown to not be that useful when we can have a single flow that naturally integrates the assertion either at the start, if we know it, or at the end if we learnt it from the system.\nThe accordion metaphor: to make music with an accordion we have to expand and collapse. You have to collapse to play. Without collapsing, there is no music. In fact usually the most interesting music is often produced when you collapse.\nI invented it as a way to explain. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T10:46:28.135755+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T10:46:28.696582+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GuKj9ymNQSW1RuzPVqy0Dg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "About explaining the interface, I ask people to describe out loud what they see. The first time they do it, they only see the contents. But then I ask them to alt+click on the view to get the source and then to go to the Meta. And then I ask them if they can understand what’s in front of them. They usually do not (even seasoned developers at Lifeware). Then I ask them to read the interface from top to bottom.\nThe metaphor I use here: say you end up on a website that tries to fish your credentials; it looks exactly like the one you are used to, but the meaning is completely different. In that situation, if you only look at the contents, you cannot make the right decision. That is why you read any website starting from the url at the top.\nIn typical environments, positions on a screen are typically linked to specific meaning (e.g., edtior is in the center, the right pane is the index with folders and files). In GT, the meaning of the tool can change at any time. That is why before interpreting the output of the tool, you first have to understand the meaning of the tool and that starts with reading the interface from top to bottom."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2025-11-12T11:29:57.842803+01:00"
 					}
 				},
@@ -136,12 +247,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-12T11:29:23.372254+01:00"
+			"dateAndTimeString" : "2025-11-19T10:44:09.51285+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Accordion"
+		"title" : "Accordion Metaphor"
 	},
 	"uid" : {
 		"__type" : "uuid",

@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-12T11:35:24.150712+01:00"
+						"dateAndTimeString" : "2025-11-19T10:44:09.541875+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "The [[Accordion]]for example, references a page in the GT book. Instead of copy paste a snippet from the book page to the curriculum, as a technical writer I want to reuse snippets. Snippets are collected from a topic pool and arranged in topic maps."
+				"string" : "The [[Accordion Metaphor]]for example, references a page in the GT book. Instead of copy paste a snippet from the book page to the curriculum, as a technical writer I want to reuse snippets. Snippets are collected from a topic pool and arranged in topic maps."
 			}
 		]
 	},
