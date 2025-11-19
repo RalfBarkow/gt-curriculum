@@ -140,7 +140,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T12:57:34.74358+01:00"
+												"dateAndTimeString" : "2025-11-19T11:18:49.596491+01:00"
 											}
 										},
 										"editEmail" : {
@@ -151,17 +151,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T12:57:37.549782+01:00"
+												"dateAndTimeString" : "2025-11-19T11:18:52.440088+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "nWr7NMb/DQCmIfXKBdgNWQ=="
+											"uidString" : "vEUWl1b5TUeQ9wYTNdD3Vw=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "{{gtPage:Accordion and Miller Columns|db=c72hpbcsarp76bsez1znvtuex}}"
+										"string" : "[[# 1. Learn the basics of Glamorous Toolkit]]"
 									}
 								]
 							},
@@ -200,6 +200,81 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-12T12:57:34.74358+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-12T12:57:37.549782+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "nWr7NMb/DQCmIfXKBdgNWQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "{{gtPage:Accordion and Miller Columns|db=c72hpbcsarp76bsez1znvtuex}}"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-19T11:18:32.929321+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-19T11:18:42.429982+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Q9mEKHz5TniA+V0MlvZvCQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Pages to work on]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
 								"items" : [ ]
 							},
 							"createEmail" : {
@@ -232,43 +307,6 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[A systematic yet moldable path]]"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T10:54:55.969444+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T10:54:55.969444+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "ddGlwMb/DQCrVu1JBbKvoQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
 						},
 						{
 							"__type" : "textSnippet",

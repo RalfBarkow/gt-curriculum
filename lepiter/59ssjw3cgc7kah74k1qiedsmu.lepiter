@@ -83,7 +83,45 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-19T10:46:41.81646+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-19T11:17:06.01632+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ci1p8jjfQ4uNPx6kiNV9pg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "This needs to be written up as a pattern.\nSee [[Accordion Metaphor]]"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -93,7 +131,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-19T10:46:41.81646+01:00"
+						"dateAndTimeString" : "2025-11-19T11:17:06.012145+01:00"
 					}
 				},
 				"editEmail" : {
@@ -104,17 +142,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-19T10:46:45.452505+01:00"
+						"dateAndTimeString" : "2025-11-19T11:17:13.021192+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ci1p8jjfQ4uNPx6kiNV9pg=="
+					"uidString" : "rMuLD6AoRr+d/95nTE6DRw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See [[Accordion Metaphor]]"
+				"string" : "# To do"
 			},
 			{
 				"__type" : "textSnippet",

@@ -140,6 +140,43 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-17T09:40:16.266763+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-18T11:44:02.026317+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "soqPCCgADgCVbYbyADTf3w=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Expand Learning module 1 as a tree of pages. See {{gtPage:Learning Module 1 Expansion|db=c72hpbcsarp76bsez1znvtuex}}"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
 												"dateAndTimeString" : "2025-11-17T09:40:00.607808+01:00"
 											}
 										},
@@ -164,43 +201,6 @@
 										"string" : "One main path with sideroads.\n(How to represent this?)"
 									}
 								]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-17T09:40:16.266763+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-18T11:44:02.026317+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "soqPCCgADgCVbYbyADTf3w=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Expand Learning module 1 as a tree of pages. See {{gtPage:Learning Module 1 Expansion|db=c72hpbcsarp76bsez1znvtuex}}"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
 							},
 							"createEmail" : {
 								"__type" : "email",

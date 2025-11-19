@@ -125,6 +125,43 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-19T11:19:58.09937+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-19T11:20:01.646631+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "YmHAUdG9SIqVwkfjhS5H+w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "See [[# 1. Learn the basics of Glamorous Toolkit]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
 								"items" : [
 									{
 										"__type" : "textSnippet",
@@ -277,41 +314,6 @@
 								"__type" : "snippets",
 								"items" : [
 									{
-										"__type" : "commentSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T10:18:14.807305+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T10:20:23.832096+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "WXMq+8P/DQCV1bBjCjwr6Q=="
-										},
-										"string" : "Perhaps some of these may be too advanced for the “basic” unit and should move to later units ...",
-										"isHidden" : false
-									},
-									{
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
@@ -347,41 +349,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "- Understanding snippets and the inspector\n- Reading the interface from top to bottom\n- Reading a view\n- Learning a script from a view (for example, how to get the url from a string)\n- Understanding Meta\n- Expanding a contextual snippet based on what we see on the right\n- Extracting from snippet to method\n- Creating a class from snippet\n- Creating a view\n- The accordion metaphor (in particular, why it is important to collapse)"
-									},
-									{
-										"__type" : "commentSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T10:23:53.539693+01:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T10:24:23.883189+01:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "EKYtD8T/DQCZ7Vu0Cjwr6Q=="
-										},
-										"string" : "What is meant here by the “accordion metaphor”? Is it just widgets that can be collapsed (like this one)?",
-										"isHidden" : false
 									}
 								]
 							},
