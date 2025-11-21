@@ -941,7 +941,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-11-20T06:49:42.241717+01:00"
+															"dateAndTimeString" : "2025-11-21T11:06:13.681932+01:00"
 														}
 													},
 													"uid" : {
@@ -951,7 +951,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "{{gtPage:How to work with external child processes|db=2j9m7db2i4oz116bexd7wbdxo}}"
+													"string" : "{{gtPage:How to work with external child processes|db=2j9m7db2i4oz116bexd7wbdxo}}. See [[Process]]"
 												},
 												{
 													"__type" : "textSnippet",
