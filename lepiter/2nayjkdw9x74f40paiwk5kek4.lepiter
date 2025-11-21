@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-21T07:27:05.587807+01:00"
+						"dateAndTimeString" : "2025-11-21T07:29:42.457612+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Context: [[Zettelkasten]] (within [discord](https://discord.com/channels/729445214812504107/851502717472997397))"
+				"string" : "Context: [[Zettelkasten]] (within [discord](https://discord.com/channels/729445214812504107/851502717472997397)) and [dmx](https://dmx.ralfbarkow.ch/systems.dmx.webclient/#/topicmap/894732/topic/831985/related)"
 			},
 			{
 				"__type" : "textSnippet",
