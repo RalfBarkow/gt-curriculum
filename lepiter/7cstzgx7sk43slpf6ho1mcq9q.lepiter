@@ -1,0 +1,709 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:08:33.05202+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:08:39.146891+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uk18DngADgCcD7fRCp4+fA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtPage:Driller|db=2j9m7db2i4oz116bexd7wbdxo}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T08:59:01.796824+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T08:59:01.796824+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "e51v7HcADgCbpSMBCp4+fA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Here is the **corrected narrative**, taking into account:\n\n* the **sepia highlight** shown *only* when you press **Shift–Control–Option** (the GT “UI element picker” mode),\n* the fact that the view becomes a **flat light-blue area only after selecting that highlighted element**,\n* and **how the Scene Driller is actually opened and used**.\n\nThis matches exactly what your screenshots show.\n"
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T08:59:14.45825+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:00:41.422058+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "utYw7XcADgCbq6OkCp4+fA=="
+				},
+				"url" : "attachments/7cstzgyiqzvcwuupwm5uo0htt/Bildschirmfoto 2025-11-21 um 08.31.21.png",
+				"caption" : "",
+				"previewHeight" : 300,
+				"reference" : ""
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:01:18.713243+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:01:38.312235+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "39GY9HcADgCbrf91Cp4+fA=="
+				},
+				"url" : "attachments/7cstzgyo0pz3abhapg35uftxm/Bildschirmfoto 2025-11-21 um 08.35.42.png",
+				"caption" : "",
+				"previewHeight" : 300,
+				"reference" : ""
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:02:35.53152+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:02:59.525838+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QPks+XcADgCbryO5Cp4+fA=="
+				},
+				"url" : "attachments/7cstzgzg8mu0qj5x5qm1kc6rh/Bildschirmfoto 2025-11-21 um 08.35.50.png",
+				"caption" : "",
+				"previewHeight" : 300,
+				"reference" : ""
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:04:43.404944+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:04:59.84432+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "xirMAHgADgCb4JKhCp4+fA=="
+				},
+				"url" : "attachments/7cstzgx7c4btesvip8qmn6c9m/Bildschirmfoto 2025-11-21 um 08.36.56.png",
+				"caption" : "",
+				"previewHeight" : 300,
+				"reference" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:07:42.755485+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:07:42.755485+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "99B8C3gADgCb6nUfCp4+fA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 🟦 Updated Narrative: What Your Screenshots Show"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-21T09:03:32.21431+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-21T09:07:46.456194+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "v9SN/HcADgCbwBA0Cp4+fA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "On the right side of GT, you have an inspector window titled **“a SomNeuronMirror”**.\nThis inspector shows several tabs:\n\n* **Neuron as mirror**\n* another **Neuron as mirror** (a duplicate, coming from two `<gtView>` annotations)\n* Raw\n* Print\n* Meta\n\nWhen you open the inspector normally, **the content area is just empty / white** — no widgets, no labels.\n\nNothing crashes — the view just doesn’t render.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:07:46.450263+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:07:46.450263+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uCy1C3gADgCb8aBTCp4+fA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 1. You are working with a `SomNeuronMirror` inspector"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-21T09:03:36.695518+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-21T09:08:05.563708+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "szzS/HcADgCbyGs8Cp4+fA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "This activates GT’s **element picker mode**, which overlays the UI with *sepia-colored highlights* whenever you hover over widgets.\n\nIn this mode:\n\n* the entire area where your custom SOM view *should* be is highlighted in **sepia**,\n* GT shows its bounds and will allow selecting it when clicked.\n\nThis sepia-highlighted area corresponds to the *would-be view root* of your `gtNeuronAsMirrorOn:` or `gtMirrorOn:`.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:08:05.556192+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:08:05.556192+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "V7rYDHgADgCcBq+uCp4+fA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 2. You press **Shift–Control–Option**"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-21T09:03:40.461851+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-21T09:09:24.176531+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "irML/XcADgCb0HAKCp4+fA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Once clicked, GT “selects” that area and:\n\n* the region that was sepia highlighted becomes a **flat light–blue rectangle**.\n* This is GT’s default background for a selected `BlElement` that does not draw anything special.\n\nYou now have an **empty root** element — the container exists, but none of your labels or columns are visible.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:09:24.170838+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:09:24.170838+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2kSIEXgADgCcUKcyCp4+fA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 3. You click the sepia-highlighted area"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-21T09:03:48.321842+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-21T09:13:26.415599+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "VJ6D/XcADgCb2RmDCp4+fA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "To open the Scene {{gtPage:Driller|db=2j9m7db2i4oz116bexd7wbdxo}}, you:\n\n1. Hover the inspector window title bar.\n2. Click the tiny “three-boxes” icon (or right-click on a widget and choose “Inspect element”).\n3. This opens the **Glamorous Scene Driller** in a separate window.\n\nThe Driller shows:\n\n### Left: “Scene”\n\nA miniature, zoomed-out view of:\n\n* your inspector window,\n* the Lepiter note next to it,\n* and the light-blue rectangle where your view should be.\n\n### Center: “Elements” tree\n\nThe tree reveals the actual visual hierarchy of Brick elements.\nWhat you saw in the screenshots includes:\n\n* {{gtClass:GtWorldElement}} See {{gtPage:World|db=2j9m7db2i4oz116bexd7wbdxo}} and {{gtMethod:Class>>#gtReferencesInSnippetsFor:}} (References in snippets)\n* {{gtClass:BlElement}} (various)\n* {{gtClass:BlScrollableElement}}\n* {{gtClass:BrAsyncWidget}}\n* inside it, some {{gtClass:BrLabel}} nodes with correct text such as:\n\n  ```\n  Neuron #5 at (1@1)\n  ```\n\nMeaning:\n\n> The label *exists* and has the correct text,\n> but its parent layout or geometry is making it invisible.\n\n### Right: Live / Overview / User data panels\n\nWhen selecting a `BrAsyncWidget`, you saw:\n\n* `brickLayout …`\n* `blocStates …`\n* `explainer …`\n* and inside a `BrLabelModel`, the correct text:\n  **“Neuron #5 at (1@1)”**\n\nThis confirms:\n\n✔ your view code is creating the labels\n✘ but they are not being laid out or shown in the visible region\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:09:47.894586+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:09:47.894586+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "9EjyEngADgCcZoStCp4+fA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 4. You open the **Scene Driller**"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:10:59.84461+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:10:59.84461+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Nyg8F3gADgCcid7gCp4+fA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 🟦 Interpretation of the Problem\n\nYour `gtView` constructed a root element that:\n\n* is being added to the inspector,\n* but something about the layout (height=0, width=0, or parent not expanding children)\n* makes everything **invisible** even though the elements exist.\n\nThis is exactly why the Driller sees them, but the inspector does not.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:11:05.904806+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:11:05.904806+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "V5uYF3gADgCclxPZCp4+fA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 🟦 Summary in One Sentence\n\n> **GT is correctly creating your Brick widgets (labels, columns), but the root element of your view has zero size or no visible bounds, so the whole view stays invisible — only when highlighted via Shift–Control–Option or inspected in the Scene Driller do you see the underlying structure.**\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T08:51:54.348649+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-21T09:15:00.732746+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pkz10ncADgCZGtwYCp4+fA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 🟦 What the Scene Driller Teaches You\n\nThe Driller is showing that:\n\n### 1. The inspector *renders* your view inside a `BrAsyncWidget`.\n\nThis is normal — GT runs view producers asynchronously.\n\n### 2. Your root element has size `(0@0)` or does not expand its children.\n\nIts background becomes light-blue because the inspector applies focus styling to selected Brick elements.\n\n### 3. Your labels exist as subwidgets, with correct text, in the widget tree.\n\nSo GT is consuming your `gtView` correctly.\n\nThus: **the fix is purely geometry/layout**, not view logic.\n\n---\n\nIf you now want, [I](https://chatgpt.com/g/g-p-691997577a78819194cd62664eb19c31-som/c/692010ae-f2b8-8333-a438-53bd60f2d79e) can:\n\n### ✔ Fix the view so it displays reliably\n\n(using `BrColumn` or forcing constraints via `constraintsDo:`)\n\nor\n\n### ✔ Identify the exact layout mistake in your existing method\n\nby using the Driller data you already extracted.\n\nJust tell me:\n\n> “Fix the view now.”\n\nor\n\n> “Explain why the layout collapses and how to avoid it globally.”\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-21T08:52:06.23998+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-21T09:05:45.244432+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "What Your Screenshots Show"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "fe49f5d2-7700-0e00-9919-03220a9e3e7c"
+	}
+}
