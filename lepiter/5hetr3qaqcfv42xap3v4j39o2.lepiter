@@ -280,7 +280,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-24T09:33:40.721663+01:00"
+									"dateAndTimeString" : "2025-11-24T16:41:08.76656+01:00"
 								}
 							},
 							"uid" : {
@@ -290,7 +290,44 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "GT is an environment for making systems explainable through the creation of *contextual tools*.\nEvery system is different, so generic software analysis tools only get you so far. in contrast, a “contextual tool” helps you to answer specific questions about a software system in the context of the problems you need to address. \nGT supports the inexpensive creation of such tools by providing:\n- a moldable development methodology expressed (a set of development *patterns*)\n- a live, open-source, moldable development environment (the *toolkit*)"
+							"string" : "GT is an environment for making systems explainable through the creation of *contextual tools*.\nEvery system is different, so a “contextual tool” helps you to answer specific questions about a software system in the context of the problems you need to address. \nGT supports the inexpensive creation of such tools by providing:\n- a moldable development methodology expressed (a set of development *patterns*)\n- a live, open-source, moldable development environment (the *toolkit*)"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-24T16:41:36.926303+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-24T16:42:14.263192+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "0rWQwAPgTuuUz0c5+uiGbg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "TG: GT doesn't provide the methodology, but uses it ...\nIt gives you an environment that allows you to ...."
 						},
 						{
 							"__type" : "textSnippet",

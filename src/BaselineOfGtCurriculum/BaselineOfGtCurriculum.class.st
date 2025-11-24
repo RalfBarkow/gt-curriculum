@@ -6,6 +6,11 @@ Class {
 }
 
 { #category : 'loading' }
+BaselineOfGtCurriculum class >> gtDependencyAnalysisPreloadedBaselines [
+	^ super gtDependencyAnalysisPreloadedBaselines copyWith: BaselineOfGToolkit
+]
+
+{ #category : 'loading' }
 BaselineOfGtCurriculum class >> loadLepiter [
 	IceRepository registry  
 		detect: [ :aRepository |
