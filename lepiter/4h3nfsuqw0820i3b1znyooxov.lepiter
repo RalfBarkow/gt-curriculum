@@ -1,0 +1,447 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-22T06:29:29.36572+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-22T06:29:40.620056+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "jI5684kADgCAV/nADruWSw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Ward Cunningham’s *Folk Memory* describes a distributed-object ecosystem where:\n\n1. Objects live in many places.\n2. Objects carry state (local knowledge).\n3. Change radiates outward from loci of “authority.”\n4. Trails describe how updates propagate through a distributed neighborhood.\n5. Systems achieve coherence not through central coordination but through *local diffusion* of correction.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:29:58.231948+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T07:12:29.530585+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "vgsz9YkADgCAZudIDruWSw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: [pdf](https://c2.com/doc/FolkMemory.pdf), [wiki](http://som.dreyeck.ch/view/welcome-visitors/view/ralf-barkow/view/folk-memory/view/folk-concepts)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:33:26.455421+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:33:26.455421+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/kKcAYoADgCA1iFSDruWSw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Objects in Folk Memory are not immutable. They are:\n\n* carriers of partial knowledge,\n* attracted to “better” knowledge sources,\n* updated locally through a neighborhood relation.\n\nThis is structurally identical to Kohonen’s *model vectors* (reference vectors).\nKohonen describes these as “prototypes that migrate to optimally represent the input distribution” (SOM 2001, Chap. 3) ."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:34:42.903037+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:34:42.903037+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "KL0qBooADgCA7XDTDruWSw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Ward says objects propagate “trail updates” outward from authoritative sources.\nSOM: the BMU becomes the temporary “local authority,” the best known representative of the current input.\n\nPromotion in Folk Memory =\n“Your shard best matches the new event; now tell your neighbors how to adjust.”"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:36:58.790604+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:36:58.790604+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mDxEDooADgCA9YqEDruWSw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### **C. The spread of influence**\n\n**Neighborhood function h(t)** → **diffusion gradient**\nIn SOM, each input event updates not only the BMU but also its neighbors by a decaying function *h(distance, time)*.\nWard’s trails:\nupdates radiate outward, weakening with graph distance.\n\nThe Gaussian neighborhood = the canonical “trail decay.”\n\n### **D. Distributed coherence**\n\n**SOM learning rate & radius decay** → **FolkMemory dampening**\nWard’s system stabilizes because trails grow *weaker* as they propagate.\nSOM:\nboth η(t) and radius(t) shrink.\nLess turbulence → convergence on a stable memory topology.\n\n### **E. Spatial substrate**\n\n**SOM grid** → **FolkMemory’s logical neighborhood graph**\nWard’s objects form adjacency relationships (servers, shards, authority trails).\nKohonen’s grid is a fixed adjacency graph with lateral inhibition + neighborhood excitation (SOM 2001, Sec. 4.2) .\n\n### **F. Knowledge emergence**\n\n**SOM’s ordered map** → **FolkMemory’s emergent shared memory**\nJohn Day’s “fundamental invariant” pattern applies directly:\ncomplex systems converge when local recursive updates enforce consistent behavior across neighbors—no central controller.\n\nSOM ordering is exactly such an invariant.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:39:33.073377+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:39:33.073377+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "FGh2F4oADgCBHErBDruWSw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 🟦 STAGE 9.2 — The FolkMemory Narrative\n\nThis is the literal story we will present in our GT Curriculum:\n\n> “Imagine each SOM neuron is a small shard of memory living on a distributed network.\n> Every time a new pattern appears, it announces:\n> *‘Here is what the world looks like right now.’*\n>\n> The shard that best recognizes this pattern becomes the **authority**.\n> Its neighbors update themselves by **listening** to the authority’s trail:\n>\n> *‘Adjust a bit toward me—less so the farther away you are.’*\n>\n> Over time, the entire network self-organizes into a landscape of meaning: neighborhoods of shards come to represent consistent regions of the world.”\n\nThis is pure Ward.\n\nAnd it matches Kohonen’s narrative from SOM 2001 Sec. 3.1 (“qualitative introduction”) almost word-for-word:\nlocal, lateral, decentralized, stabilizing. \n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:42:00.096724+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:42:00.096724+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "p805IIoADgCBN7xRDruWSw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 🟦 STAGE 9.3 — GT Curriculum Ladder (Extended)\n\nThis is the version ready to drop into our “Curriculum Ladder” page.\n\n## **Stage 9.3.1 — From Numbers to Distributed Objects**\n\n1. Start with a heatmap of all reference vectors in 2D/3D numeric space.\n2. Then show the *same objects* as interactive cards in a “distributed view”:\n\n   * nodes as neurons,\n   * edges as neighborhood relations,\n   * color = activation\n   * size = influence weight h.\n\nStudents now “see” Kohonen’s grid as a distributed system.\n\n## **Stage 9.3.2 — Show a Single Step as a FolkMemory Event**\n\nAnimation of:\n\n1. Input arrives (highlight vector).\n2. BMU lights up (“promotion”).\n3. Neighborhood nodes glow by decreasing intensity (“trail”).\n4. Weight updates ripple outward.\n\n**This is the “diffusion trail.”**\n\n## **Stage 9.3.3 — Connect to Day’s Model of Networks**\n\nShow that SOM’s update rule enforces:\n\n* local consistency,\n* global invariants,\n* stability by decreasing learning rate,\n* robustness against noise.\n\nExactly Day’s description of correct recursive distributed protocols.\n\n## **Stage 9.3.4 — Introduce Shards**\n\nAdd optional metadata to each neuron (e.g., a “story,” provenance, or snippet) to stress that:\n\n* Reference vectors need not be numeric-only.\n* They can be small objects with state (FolkMemory object).\n\n## **Stage 9.3.5 — Show Emergence**\n\nUse a time-lapse visualization:\n\n* early chaos →\n* neighborhoods forming →\n* stable topological order.\n\nExplain:\n“This is what happens when distributed objects share experience through trails.”\n\n## **Stage 9.3.6 — Interpret Ordering as Knowledge Consolidation**\n\nWard Cunningham:\n“The authority trails keep history alive as new shards align.”\n\nKohonen:\n“Reference vectors converge on centroids representing data manifold topology.” \n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:42:12.568785+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:51:14.393735+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "1RX4IIoADgCBRXq+DruWSw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 🟦 STAGE 9.4 — GT Implementation Sketch (for our Case Study)\n\nWe will implement a GT view:\n\n```\nKohonenSom >> gtFolkMemoryExplanationOn:\n```\n\nThis view will:\n\n1. Render grid → distributed nodes.\n2. Animate:\n\n   * BMU selection (blue highlight)\n   * Neighborhood (heat gradient)\n   * After-update vectors (arrows or delta vectors)\n3. Show textual narration in a right-hand pane:\n   “Authority node selected… Trail flowing… Neighbors adjusting…”\n\nWe will use, per our preference:\n\n* **BlElement** for the graph\n* **GtMondrian** for layouts\n* **Inspector page** for narration\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:42:08.46493+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:51:31.252541+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0n65IIoADgCBPmYgDruWSw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 🟦 STAGE 9.5 — Case Study Plan (What We Will Put Into the GT Book)\n\nThis will become a chapter in our curriculum:\n\n1. **Introduction:**\n   How SOM works in strict mathematical terms.\n\n2. **Mapping to FolkMemory:**\n   Each SOM concept translated to a distributed-system metaphor.\n\n3. **Interactive Animation:**\n   Visualize BMU, trails, neighborhood, updates.\n\n4. **Discussion:**\n   Why this analogy matters for distributed learning, topic maps, and knowledge infrastructures.\n\n5. **Exercises:**\n\n   * “Change the decay schedule—how does the FolkMemory respond?”\n   * “Break neighborhood links—does coherence fail?”\n   * “Inject contradictory inputs—track how the network stabilizes.”\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:45:22.449721+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:45:33.444896+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4XZJLIoADgCBjcMvDruWSw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 🟦 STAGE 9.6 — Why This Works (Pedagogically)\n\nLearners often find SOM “mathematically simple but conceptually opaque.”\nWard’s FolkMemory metaphor fixes that:\n\n* The network becomes a social organism, not a matrix of floats.\n* Ordering becomes the story of a distributed system achieving shared memory.\n* Neighborhood function = gossip radius.\n* Learning rate = trust weighting.\n* BMU = temporary expert.\n* Reference vectors = evolving folk knowledge.\n\nThis is extremely powerful for our GT curriculum.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:45:14.267417+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-22T06:52:40.411577+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "NZ3MK4oADgCBgAflDruWSw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 🟦 If we want next\n\nWe can deliver any of the following next steps:\n\n1. **The actual GT view:**\n   `KohonenSom >> gtFolkMemoryExplanationOn:`\n2. **A full Curriculum Ladder page**\n   in the GT Book style (accordion-friendly).\n3. **A testable “FolkMemorySOMCaseStudy” class** we can import.\n4. **Animations**: time-lapse neighborhood diffusion, weight motion vectors.\n5. **Narrative inspector integration** to show the “story” of each update."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-22T06:28:48.617823+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-22T06:29:08.600157+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Folk Memory"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "8fd00cf1-8900-0e00-8040-91b50ebb964b"
+	}
+}
