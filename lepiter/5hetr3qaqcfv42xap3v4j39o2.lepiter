@@ -216,10 +216,82 @@
 				"code" : "CurriculumSceneries new basicsScenery"
 			},
 			{
+				"__type" : "commentSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-24T09:02:02.831828+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-24T09:26:09.370975+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "MhI5nbh+Su20+3EigCMRiQ=="
+				},
+				"string" : "Where do we put the pages on the learning modules?\nThey are *paths* through the book, so logically belong in the {{gtPage:Get started|db=2j9m7db2i4oz116bexd7wbdxo}} page",
+				"isHidden" : false
+			},
+			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-24T09:01:59.445253+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-24T09:33:40.721663+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "bTqJISxpR9+xTcSY+ubZmw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "GT is an environment for making systems explainable through the creation of *contextual tools*.\nEvery system is different, so generic software analysis tools only get you so far. in contrast, a “contextual tool” helps you to answer specific questions about a software system in the context of the problems you need to address. \nGT supports the inexpensive creation of such tools by providing:\n- a moldable development methodology expressed (a set of development *patterns*)\n- a live, open-source, moldable development environment (the *toolkit*)"
+						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
@@ -1172,6 +1244,81 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-24T08:47:57.402573+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-24T08:47:59.374624+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "cTZbFTt1TLWeuI4RdIAwlg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "{{gtPage:How to find stuff in GT in 7'|db=2j9m7db2i4oz116bexd7wbdxo}}"
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-24T08:48:23.423929+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-24T08:48:36.72156+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "5JIxRtLMScavYo1nrwl5xQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "- How to find stuff in GT"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
 															"dateAndTimeString" : "2025-11-19T15:25:33.095044+01:00"
 														}
 													},
@@ -1443,43 +1590,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# 1. Learn the basics of Glamorous Toolkit"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-19T11:22:46.221058+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-19T11:22:46.221058+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "815FXY2nRGCMns5whkWItw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
