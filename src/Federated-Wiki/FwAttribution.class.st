@@ -1,0 +1,16 @@
+Class {
+	#name : 'FwAttribution',
+	#superclass : 'Object',
+	#category : 'Federated-Wiki-attribution',
+	#package : 'Federated-Wiki',
+	#tag : 'attribution'
+}
+
+{ #category : 'examples' }
+FwAttribution >> exampleAttribution [
+	<gtExample>
+	| page result |
+	page := FwPage site: 'wiki.ralfbarkow.ch' slug: 'federated-wiki'.
+	result := page attributionsInJournal.
+	^ result
+]

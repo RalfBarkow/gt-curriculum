@@ -8,6 +8,43 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T14:26:36.979825+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T14:26:49.762388+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pK6ou6QADgCKt8tJBV3Ufg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:GtBookTrace}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
 					"items" : [
 						{
 							"__type" : "textSnippet",
@@ -865,7 +902,45 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-10T22:12:37.843442+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T14:27:27.340798+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "dbJRuqX/DQCsAg15DLF6pQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Add a simple “session singleton” on the class side:\n\n```smalltalk\nGtBookTrace class>>current\n    ^ Current ifNil: [ Current := self new ]\n\nGtBookTrace class>>resetCurrent\n    Current := nil\n```\n\nYou can also add:\n\n```smalltalk\nGtBookTrace class>>finishCurrent\n    Current ifNotNil: [\n        Current finishedAt: DateAndTime now ].\n```\n\nThis gives you:\n\n* `GtBookTrace current` → “my ongoing path right now”\n* later you can persist it into a Lepiter page by storing `storeString`.\n"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -875,7 +950,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-10T22:12:37.843442+01:00"
+						"dateAndTimeString" : "2025-11-23T14:27:27.332718+01:00"
 					}
 				},
 				"editEmail" : {
@@ -886,17 +961,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-10T22:26:29.436327+01:00"
+						"dateAndTimeString" : "2025-11-23T14:27:27.332718+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "dbJRuqX/DQCsAg15DLF6pQ=="
+					"uidString" : "5/qovqQADgCLT4TwBV3Ufg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## 4. “Current trace” for the user\n\nAdd a simple “session singleton” on the class side:\n\n```smalltalk\nGtBookTrace class>>current\n    ^ Current ifNil: [ Current := self new ]\n\nGtBookTrace class>>resetCurrent\n    Current := nil\n```\n\nYou can also add:\n\n```smalltalk\nGtBookTrace class>>finishCurrent\n    Current ifNotNil: [\n        Current finishedAt: DateAndTime now ].\n```\n\nThis gives you:\n\n* `GtBookTrace current` → “my ongoing path right now”\n* later you can persist it into a Lepiter page by storing `storeString`.\n"
+				"string" : "## 4. “Current trace” for the user"
 			},
 			{
 				"__type" : "textSnippet",
@@ -1816,14 +1891,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T16:08:34.924025+01:00"
+									"dateAndTimeString" : "2025-11-23T14:28:23.720424+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "ukj9rFUADgChDhzvDkwmRA=="
 							},
-							"string" : "Related: What “moldable logging” means in GT\n{{gtPage:An example of moldable logging using Beacon|db=2j9m7db2i4oz116bexd7wbdxo}}",
+							"string" : "Related: What “moldable logging” means in GT\n{{gtPage:An example of moldable logging using Beacon|db=2j9m7db2i4oz116bexd7wbdxo}}. See [[Beacon]]",
 							"isHidden" : false
 						}
 					]

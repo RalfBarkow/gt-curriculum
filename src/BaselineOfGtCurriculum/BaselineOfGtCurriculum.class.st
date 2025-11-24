@@ -1,10 +1,11 @@
 Class {
-	#name : #BaselineOfGtCurriculum,
-	#superclass : #BaselineOf,
-	#category : #BaselineOfGtCurriculum
+	#name : 'BaselineOfGtCurriculum',
+	#superclass : 'BaselineOf',
+	#category : 'BaselineOfGtCurriculum',
+	#package : 'BaselineOfGtCurriculum'
 }
 
-{ #category : #loading }
+{ #category : 'loading' }
 BaselineOfGtCurriculum class >> loadLepiter [
 	IceRepository registry  
 		detect: [ :aRepository |
@@ -19,10 +20,13 @@ BaselineOfGtCurriculum class >> loadLepiter [
 			self inform: 'Repository not found.' ]
 ]
 
-{ #category : #baseline }
+{ #category : 'baseline' }
 BaselineOfGtCurriculum >> baseline: spec [
 	<baseline>
-		^ spec for: #common do: [
-			spec package: 'GtCurriculum'
-		]
+	^ spec
+		for: #common
+		do: [ spec
+				package: 'GtCurriculum';
+				package: 'Federated-Wiki';
+				package: 'Federated-Wiki-Java' ]
 ]
