@@ -9,8 +9,8 @@ My main collaborators are
 * {{gtClass:STONJSON}}
 "
 Class {
-	#name : 'FwPage',
-	#superclass : 'Object',
+	#name : #FwPage,
+	#superclass : #Object,
 	#instVars : [
 		'json',
 		'url',
@@ -22,12 +22,10 @@ Class {
 		'lePage',
 		'synopsis'
 	],
-	#category : 'Federated-Wiki-Page',
-	#package : 'Federated-Wiki',
-	#tag : 'Page'
+	#category : 'Federated-Wiki-Page'
 }
 
-{ #category : 'factory' }
+{ #category : #factory }
 FwPage class >> create [
 	| aSlug jsonObject fWpages filePath file fWpage |
 	aSlug := Date today iso8601.
@@ -45,13 +43,13 @@ FwPage class >> create [
 	WebBrowser openOn: Wiki url , ':' , Wiki port asString , '/view/' , aSlug
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage class >> create: aSlug [
     ^ self createFor: aSlug
 
 ]
 
-{ #category : 'factory' }
+{ #category : #factory }
 FwPage class >> createFor: aSlug [
 	| jsonObject fWpages filePath file |
 	(self pageExists: aSlug) ifTrue: [ ^ self error: 'Page already exists' ].
@@ -69,7 +67,7 @@ FwPage class >> createFor: aSlug [
 
 ]
 
-{ #category : 'constructing' }
+{ #category : #constructing }
 FwPage class >> createSlug: aSlugString withJSON: aJson [
     | page |
     page := self new
@@ -79,7 +77,7 @@ FwPage class >> createSlug: aSlugString withJSON: aJson [
     ^ page               "return the page json (your original contract)"
 ]
 
-{ #category : 'initialization' }
+{ #category : #initialization }
 FwPage class >> empty [
 	^ self new
 		title: 'Empty';
@@ -87,7 +85,7 @@ FwPage class >> empty [
 		yourself	"no items"
 ]
 
-{ #category : 'examples' }
+{ #category : #examples }
 FwPage class >> examplePage [
 	| page |
 	page := LePage new.
@@ -98,7 +96,7 @@ FwPage class >> examplePage [
 	^ self new lePage: page
 ]
 
-{ #category : 'accessing - json' }
+{ #category : #'accessing - json' }
 FwPage class >> fetch: aUrlString [
 	"Fetches and parses a FedWikiPage from the given URL.
     Returns a FedWikiPage instance or nil if an error occurred."
@@ -119,7 +117,7 @@ FwPage class >> fetch: aUrlString [
 	^ (self new initializeFromJson: response) url: aUrlString
 ]
 
-{ #category : 'parsing' }
+{ #category : #parsing }
 FwPage class >> fromJson: rawJson host: aHost slug: aSlug [
 	"Temporary: return a dictionary until a real FwPage model is defined."
 
@@ -130,7 +128,7 @@ FwPage class >> fromJson: rawJson host: aHost slug: aSlug [
 		yourself
 ]
 
-{ #category : 'initialize' }
+{ #category : #initialize }
 FwPage class >> fromWikiDb: aSlug [
 	"Load a page’s JSON from the local DB and fully initialize a FedWikiPage."
 
@@ -142,7 +140,7 @@ FwPage class >> fromWikiDb: aSlug [
 	^ self new initializeFromJson: json slug: aSlug
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage class >> fromWikiDb: slug host: host [
   | fileRef |
   fileRef := (Wiki pagesDirForHost: host) / (slug , '.json').
@@ -151,7 +149,7 @@ FwPage class >> fromWikiDb: slug host: host [
        ifFalse: [ nil ].
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage class >> get: aSlug from: aHost [
 	"Load a page over HTTP, derive its slug from the title, and fully initialize a FedWikiPage."
 
@@ -204,7 +202,7 @@ FwPage class >> get: aSlug from: aHost [
 	^ page
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage class >> getSlug: aSlug withLePage: aLePage [
 	"Get an existing FedWikiPage and associate it with the given LePage."
 
@@ -219,7 +217,7 @@ FwPage class >> getSlug: aSlug withLePage: aLePage [
 	^ fedWikiPage
 ]
 
-{ #category : 'support' }
+{ #category : #support }
 FwPage class >> networkExceptionSet [
 	"Return an ExceptionSet of whatever network/Zn errors exist in this image.
 	 Falls back to Error to avoid hard deps."
@@ -234,30 +232,30 @@ FwPage class >> networkExceptionSet [
 	^ set
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage class >> openOn: aSlug [
 	^ WebBrowser openOn: 'http://localhost:3000/view/' , aSlug
 ]
 
-{ #category : 'instance - creation' }
+{ #category : #'instance - creation' }
 FwPage class >> pageExists: aSlug [
 	| filePath |
 	filePath := (Wiki db , aSlug) asFileReference.
 	^ filePath exists
 ]
 
-{ #category : 'instance creation' }
+{ #category : #'instance creation' }
 FwPage class >> pageExists: slug and: aBlock [
     ^ (self pageExists: slug) and: aBlock value.
 
 ]
 
-{ #category : 'instance - creation' }
+{ #category : #'instance - creation' }
 FwPage class >> site: aHost slug: aSlug [
 	^ self get: aSlug from: aHost
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage class >> site: aHost slug: aSlug withLePage: aLePage [
 	"Get a FedWikiPage from [site,slug] and associate it with the given LePage."
 
@@ -267,17 +265,17 @@ FwPage class >> site: aHost slug: aSlug withLePage: aLePage [
 	^ fedWikiPage
 ]
 
-{ #category : 'instance - creation' }
+{ #category : #'instance - creation' }
 FwPage class >> slug: aSlug [
     ^ self site: FwSite local slug: aSlug
 ]
 
-{ #category : 'construction' }
+{ #category : #construction }
 FwPage class >> slug: aSlug withLePage: aLePage [
 	^ (self site: FwSite local slug: aSlug) lePage: aLePage
 ]
 
-{ #category : 'construction' }
+{ #category : #construction }
 FwPage class >> title: aTitle withLePage: aLePage [
 	"Create a new FwPage for aTitle and attach aLePage, 
      log a warning if titles differ, and ensure full initialization."
@@ -290,7 +288,7 @@ FwPage class >> title: aTitle withLePage: aLePage [
 	^ (self site: FwSite local slug: aTitle asFedWikiSlug) lePage: aLePage
 ]
 
-{ #category : 'factory' }
+{ #category : #factory }
 FwPage class >> today [
     | slugOfToday lePage |
     slugOfToday := Date today iso8601 asString.
@@ -316,7 +314,7 @@ FwPage class >> today [
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage class >> tryGet: aSlug from: aHost [
 	| host port urlObj client response rawJson |
 	"Build URL"
@@ -351,14 +349,14 @@ FwPage class >> tryGet: aSlug from: aHost [
 	^ self error: 'HTTP ' , response code asString , ' fetching ' , urlObj asString
 ]
 
-{ #category : 'input/output' }
+{ #category : #'input/output' }
 FwPage class >> writeJSON: aJson toFile: aFileReference [
     aFileReference writeStreamDo: [ :s |
         s nextPutAll: (NeoJSONWriter toString: aJson)
     ].
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwPage >> addSnippetToStory: snippet [
     "Add a snippet to the FedWikiPage's story as a journal action."
     | action |
@@ -367,25 +365,25 @@ FwPage >> addSnippetToStory: snippet [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwPage >> addSnippetsFromLePage: aLePage [
     "Collect all snippets from the LePage and add them to the story using Journal actions."
     aLePage children do: [ :snippet |
         self addSnippetToStory: snippet ].
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> asContentUIModel [
 	<return: #LeContentViewModel>
 	^ LePageViewModel new pageModel: self lePage
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> asFedWikiSlug [
 	^ FwSiteMap local slugFor: self slug
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> assets [
 	"Returns the file reference to the assets directory for this page. 
 	'pages' is a subdirectory used by convention to organize page assets."
@@ -394,7 +392,7 @@ FwPage >> assets [
 
 ]
 
-{ #category : 'accessing - journal' }
+{ #category : #'accessing - journal' }
 FwPage >> attributionsInJournal [
     | attributions |
     attributions := OrderedCollection new.
@@ -405,7 +403,7 @@ FwPage >> attributionsInJournal [
 
 ]
 
-{ #category : 'accessing - journal' }
+{ #category : #'accessing - journal' }
 FwPage >> collectValuesForKey: aKey from: anObject into: aCollection [
     (anObject isDictionary) ifTrue: [
         anObject keysAndValuesDo: [ :k :v |
@@ -417,12 +415,12 @@ FwPage >> collectValuesForKey: aKey from: anObject into: aCollection [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwPage >> context [
 	^ journal context
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwPage >> createPageJSONFromStory [
     "Create a new Federated Wiki page JSON from my existing story.
      Uses a 'create' journal entry with the current date and this page's story.
@@ -453,13 +451,13 @@ FwPage >> createPageJSONFromStory [
 
 ]
 
-{ #category : 'examples' }
+{ #category : #examples }
 FwPage >> exampleCreateFor [
 	<gtExample>
 	FwPage createFor: 'scratch'
 ]
 
-{ #category : 'examples' }
+{ #category : #examples }
 FwPage >> exampleCreatePageJSONFromStory [
 	<gtExample>
 	| page result |
@@ -471,7 +469,7 @@ FwPage >> exampleCreatePageJSONFromStory [
 	^ result
 ]
 
-{ #category : 'examples' }
+{ #category : #examples }
 FwPage >> exampleEmpty [
 	"As a rule of thumb, any json should render. {} is a valid page json which renders as 'Empty'."
 
@@ -483,7 +481,7 @@ FwPage >> exampleEmpty [
 	^ result
 ]
 
-{ #category : 'examples' }
+{ #category : #examples }
 FwPage >> exampleFetch [
 	<gtExample>
 	<return: #FwPage>
@@ -495,13 +493,13 @@ FwPage >> exampleFetch [
 	^ result
 ]
 
-{ #category : 'examples' }
+{ #category : #examples }
 FwPage >> examplePage [
 	<gtExample>
 	^ self class examplePage
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 FwPage >> gtDetailsFor: aView [
 	<gtView>
 	^ aView columnedList
@@ -515,7 +513,7 @@ FwPage >> gtDetailsFor: aView [
 		column: 'Value' text: [ :association | association value ]
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 FwPage >> gtJournalFor: aView [
 	<gtView>
 	^ aView forward
@@ -525,7 +523,7 @@ FwPage >> gtJournalFor: aView [
 		view: #gtJournalActionsFor:
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 FwPage >> gtLiveFor: aView [
 	<gtView>
 	self class isAbstract
@@ -537,7 +535,7 @@ FwPage >> gtLiveFor: aView [
 		view: #gtLiveFor:
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 FwPage >> gtStoryFor: aView [
 	<gtView>
 	story := self story.
@@ -548,7 +546,7 @@ FwPage >> gtStoryFor: aView [
 		view: #gtStoryItemsFor:
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 FwPage >> gtUrlFor: aView [
 	<gtView>
 	self url ifNil: [ ^ aView empty ].
@@ -558,7 +556,7 @@ FwPage >> gtUrlFor: aView [
 		text: [ self url asUrl]
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 FwPage >> gtViewFor: aView [
 	<gtView>
 	^ aView forward
@@ -568,7 +566,7 @@ FwPage >> gtViewFor: aView [
 		view: #gtJSONDataFor:context:
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 FwPage >> gtWebpageFor: aView [
 	<gtView>
 	^ aView explicit
@@ -577,12 +575,12 @@ FwPage >> gtWebpageFor: aView [
 		stencil: [ GtWebViewElement new url: self url asString ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> host [
 	^ self url host
 ]
 
-{ #category : 'initialize' }
+{ #category : #initialize }
 FwPage >> initializeFromJson: rawJson [ 
     "Initialize all slots from a raw JSON string."
 
@@ -612,7 +610,7 @@ FwPage >> initializeFromJson: rawJson [
 
 ]
 
-{ #category : 'initialize' }
+{ #category : #initialize }
 FwPage >> initializeFromJson: rawJson slug: aSlug [
 
 	"Identity"
@@ -621,19 +619,19 @@ FwPage >> initializeFromJson: rawJson slug: aSlug [
 	^ self initializeFromJson: rawJson
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> journal [
     ^ journal ifNil: [
         journal := Journal fromPage: self
     ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> journal: aJournal [
 	journal := aJournal
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwPage >> journalActionForSnippet: snippet [
 	"Create a journal action for the given snippet."
 
@@ -647,7 +645,7 @@ FwPage >> journalActionForSnippet: snippet [
 		'date' -> timestamp} asDictionary	"Adjust type based on snippet characteristics"
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> json [
 	"Fetch and memoize JSON of the page, prioritizing the network and falling back to local file system."
 	
@@ -674,24 +672,24 @@ FwPage >> json [
 	^ json
 ]
 
-{ #category : 'initialize' }
+{ #category : #initialize }
 FwPage >> json: rawJson [
 	json := rawJson
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwPage >> lePage [
     "Get the associated LePage."
     ^ lePage
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwPage >> lePage: anLePage [
     "Set the associated LePage."
     lePage := anLePage.
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> page [
     "Fetch my JSON payload over HTTP and return it as a String."
     | response |
@@ -704,39 +702,39 @@ FwPage >> page [
     ^ response contents
 ]
 
-{ #category : 'instance - creation' }
+{ #category : #'instance - creation' }
 FwPage >> page: aFedWikiPage [
 	^ FwSiteMap local pageForSlug: slug
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwPage >> pageExists: aSlug [
 	| filePath |
 	filePath := (Wiki db , aSlug) asFileReference.
 	^ filePath exists
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> parsedJson [
 	^ parsedJson
 ]
 
-{ #category : 'initialize' }
+{ #category : #initialize }
 FwPage >> parsedJson: anObject [
 	parsedJson := anObject
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> scheme [
 	^ self url scheme
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwPage >> self [
 	^ self
 ]
 
-{ #category : 'accessing - journal' }
+{ #category : #'accessing - journal' }
 FwPage >> sitesInJournal [
 	| sites |
 	sites := OrderedCollection new.
@@ -747,7 +745,7 @@ FwPage >> sitesInJournal [
 	^ sites
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> slug [
 	"Return the instance-side slug if it exists, otherwise fall back to the last path segment of the URL."
 
@@ -756,12 +754,12 @@ FwPage >> slug [
 	^ slug
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> slug: aTitle [
 	slug := aTitle asFedWikiSlug
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> story [
     | raw |
     "Return cached story if we already built it"
@@ -785,12 +783,12 @@ FwPage >> story [
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> story: anObject [
 	story := anObject
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> storyJson [
 	| s arr |
 	s := self story.	"If story is a Story aggregate, use its json directly."
@@ -806,7 +804,7 @@ FwPage >> storyJson [
 				ifFalse: [ each ] ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> synopsis [
 	synopsis ifNotNil: [ ^ synopsis ].
 	synopsis := self story items
@@ -815,19 +813,19 @@ FwPage >> synopsis [
 	^ synopsis
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> title [
 	^ title	":= self parsedJson at: #title"
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> title: aTitle [
 	"Set the title of this page and handle any related updates."
 
 	title := aTitle	"self updateSlugFromTitle."
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> url [
 	^ url
 		ifNil: [ url := ZnUrl new
@@ -838,7 +836,7 @@ FwPage >> url [
 					addPathSegment: self slug ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPage >> url: aString [
 	url := aString asZnUrl	"Convert the provided string to a ZnUrl"
 ]

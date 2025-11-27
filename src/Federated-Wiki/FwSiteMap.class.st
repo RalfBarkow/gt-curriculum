@@ -4,8 +4,8 @@ I am a Sitemap and responsible for the `site` section.
 If not stated otherwise, I am the sitemap of the localhost. See Class vars: Local and {{gtMethod:Sitemap class>>#local}}
 "
 Class {
-	#name : 'FwSiteMap',
-	#superclass : 'Object',
+	#name : #FwSiteMap,
+	#superclass : #Object,
 	#instVars : [
 		'slugs',
 		'lastModificationTime',
@@ -20,28 +20,26 @@ Class {
 		'Sites',
 		'SlugSites'
 	],
-	#category : 'Federated-Wiki-Sitemap',
-	#package : 'Federated-Wiki',
-	#tag : 'Sitemap'
+	#category : 'Federated-Wiki-Sitemap'
 }
 
-{ #category : 'instance - accessing' }
+{ #category : #'instance - accessing' }
 FwSiteMap class >> asXML [
 	^ (Wiki status , '/sitemap.xml') asFileReference
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap class >> defaultHost [
   "Single place to define the fallback host used by tools/GT."
   ^ 'localhost'
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap class >> forHost: aHostString [
   ^ self new host: aHostString; yourself
 ]
 
-{ #category : 'instance - creation' }
+{ #category : #'instance - creation' }
 FwSiteMap class >> forSite: aURL [
     "Return the Sitemap for a specific site, creating it if necessary."
     | siteKey sitemap slugs |
@@ -63,14 +61,14 @@ FwSiteMap class >> forSite: aURL [
     ^ sitemap
 ]
 
-{ #category : 'instance - creation' }
+{ #category : #'instance - creation' }
 FwSiteMap class >> initialize [
   "Do not touch network; prepare empty registries."
   Sites := Dictionary new.
   SlugSites := BidirectionalRegistry new.
 ]
 
-{ #category : 'instance - creation' }
+{ #category : #'instance - creation' }
 FwSiteMap class >> initializeFromURL: aURL [
 	"Create a new Sitemap instance from the JSON response at the given URL."
 
@@ -80,7 +78,7 @@ FwSiteMap class >> initializeFromURL: aURL [
 	^ FwSiteMap new slugs: parsedSlugs
 ]
 
-{ #category : 'instance - creation' }
+{ #category : #'instance - creation' }
 FwSiteMap class >> initializeLocalhost [
     "Initialize the local sitemap from its JSON response and update the bidirectional mappings."
 
@@ -100,7 +98,7 @@ FwSiteMap class >> initializeLocalhost [
     Registry at: siteKey put: Local.
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap class >> loadLocalForHost: aHostString [
 	"Load (or reload) sitemap from the local file only.
    Never attempts HTTP. Returns the FwSiteMap."
@@ -111,7 +109,7 @@ FwSiteMap class >> loadLocalForHost: aHostString [
 	^ sm
 ]
 
-{ #category : 'instance - accessing' }
+{ #category : #'instance - accessing' }
 FwSiteMap class >> local [
   "Return the memoized sitemap for the default host."
   Local ifNil: [ Local := self forHost: self defaultHost ].
@@ -120,21 +118,21 @@ FwSiteMap class >> local [
   ^ Local
 ]
 
-{ #category : 'instance - accessing' }
+{ #category : #'instance - accessing' }
 FwSiteMap class >> registry [
 	"Host-keyed registry of loaded sitemaps."
 
 	^ Registry ifNil: [ Registry := Dictionary new ]
 ]
 
-{ #category : 'instance - creation' }
+{ #category : #'instance - creation' }
 FwSiteMap class >> reset [
 	"Clear the local Sitemap instance, effectively deleting it."
 
 	Local := nil
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap class >> siteKeysForSlug: aSlug [
 	"Search all sitemaps in the registry for the given slug and return the corresponding site keys."
 
@@ -145,29 +143,29 @@ FwSiteMap class >> siteKeysForSlug: aSlug [
 			sitemap slugs anySatisfy: [ :eachSlug | eachSlug slug = aSlug ] ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap class >> sites [
   ^ Sites ifNil: [ Sites := Dictionary new ].
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap class >> slugSites [
   ^ SlugSites ifNil: [ SlugSites := BidirectionalRegistry new ].
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap class >> useHTTP [
 	"Central policy flag. Keep false for pure file-based."
 
 	^ false
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> baseUrl [
 	^ 'localhost:3000'
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> checkAndReloadIfNeeded [
   "Pure file-based: compare mtime of local sitemap.json and reload if newer."
   | fileRef mtime |
@@ -191,7 +189,7 @@ FwSiteMap >> checkAndReloadIfNeeded [
   ^ self
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> checkForModifications [
 	"Check if the sitemap.json file has been modified and reload Sitemap local if needed."
 
@@ -205,13 +203,13 @@ FwSiteMap >> checkForModifications [
 	self lastModificationTime: lastModified
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> ensureHost [
   host ifNil: [ host := self class defaultHost ].
   ^ host
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> entries [
   "Array of dictionaries parsed from sitemap.json."
   self ensureHost.
@@ -219,7 +217,7 @@ FwSiteMap >> entries [
   ^ rawData ifNil: [ #() ] ifNotNil: [ rawData ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> exampleAddForSite [
     <gtExample>
     | registry slug1 slug2 site1 site2 |
@@ -247,7 +245,7 @@ FwSiteMap >> exampleAddForSite [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> exampleCheckAndReloadIfNeeded [
   <gtExample>
   | testHost dir file sm oldTS |
@@ -274,7 +272,7 @@ FwSiteMap >> exampleCheckAndReloadIfNeeded [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> exampleVerifyFedWikiSlugMappings [
     <gtExample>
     | registry sitemap fedWikiKey slugsFromSitemap |
@@ -301,7 +299,7 @@ FwSiteMap >> exampleVerifyFedWikiSlugMappings [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> fetchNow [
 	(self respondsTo: #useHTTP) ifTrue: [ self useHTTP ] ifFalse: [ false ]
 		ifFalse: [ ^ self ].
@@ -314,7 +312,7 @@ FwSiteMap >> fetchNow [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> gtEntriesFor: aView [
   <gtView>
   self ensureHost.
@@ -329,7 +327,7 @@ FwSiteMap >> gtEntriesFor: aView [
     column: 'Synopsis' text: [ :d | d at: 'synopsis' ifAbsent: [ '' ] ].
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 FwSiteMap >> gtSitemapMapFor: aView [
 	<gtView>
 	^ aView mondrian
@@ -390,7 +388,7 @@ FwSiteMap >> gtSitemapMapFor: aView [
 			m ]
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 FwSiteMap >> gtSlugsFor: aView [
   <gtView>
   self ensureHost.
@@ -408,7 +406,7 @@ FwSiteMap >> gtSlugsFor: aView [
       ls size printString , ' links' ].
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> gtSpotterForSlugsFor: aSearch [
   <gtSearch>
   ^ aSearch list
@@ -430,7 +428,7 @@ FwSiteMap >> gtSpotterForSlugsFor: aSearch [
     filterBySubstring
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> gtStatusOn: aView [
 	<gtView>
 	^ aView text
@@ -469,7 +467,7 @@ FwSiteMap >> gtStatusOn: aView [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> gw_guessSitemapFileForHost: hostString [
 	"Fallback when #sitemapFile is not implemented."
 	| wikiClass |
@@ -480,23 +478,23 @@ FwSiteMap >> gw_guessSitemapFileForHost: hostString [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> history [
 	"Optional list of past sitemap snapshots; empty by default."
 	^ #()
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> host [
 	^ host
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> host: aHostString [
 	host := aHostString
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> initializeFromJSONString: aJSONString [
 	"Parse FedWiki sitemap array and populate `pages`.
    We keep it tolerant to field drift."
@@ -513,7 +511,7 @@ FwSiteMap >> initializeFromJSONString: aJSONString [
 	^ pages
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> initializeFromWikiStatusJSON [
 	"Reload the local sitemap from the latest version of the sitemap.json file,
 	and update the last modification time."
@@ -530,22 +528,22 @@ FwSiteMap >> initializeFromWikiStatusJSON [
 				cr ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> lastLoadedAt [
 	^ lastLoadedAt
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> lastModificationTime [
 	^ lastModificationTime
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> lastModificationTime: aDateAndTime [
   lastModificationTime := aDateAndTime
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> linkedItemsForEachSlugIn: aPage [
     "Return a Dictionary mapping each Slug → the list of StoryItem objects it links to."
 
@@ -576,7 +574,7 @@ FwSiteMap >> linkedItemsForEachSlugIn: aPage [
     ^ result
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> linkedStoryItems [
     "Return a Dictionary mapping each Slug → its Dictionary of anchor→StoryItem."
 
@@ -590,7 +588,7 @@ FwSiteMap >> linkedStoryItems [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> linkedStoryItemsFromRandomSubset: n [
     "Return a Dictionary of linkedStoryItems, but only for a random subset of n slugs."
 
@@ -613,7 +611,7 @@ FwSiteMap >> linkedStoryItemsFromRandomSubset: n [
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> links [
 	"Aggregate all links for each slug."
 
@@ -623,7 +621,7 @@ FwSiteMap >> links [
 	^ aggregatedLinks
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> linksFor: aSlugOrString [
     | slugObj |
     slugObj := (aSlugOrString isKindOf: Slug)
@@ -635,14 +633,14 @@ FwSiteMap >> linksFor: aSlugOrString [
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> linksForEachSlug [
 	"Return just the links for each slug as a collection."
 
 	^ self slugs collect: [ :slug | self linksFor: slug ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> pageForSlug: aSlugString [
     "Try loading locally first; if that fails, fall back to HTTP"
 
@@ -668,26 +666,26 @@ FwSiteMap >> pageForSlug: aSlugString [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> pages [
 	"An Array of slugs (Strings)."
 
 	^ pages ifNil: [ #() ]
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 FwSiteMap >> rawData [
 	^ rawData
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> registry [
 	"Ensure that the registry is initialized as a BidirectionalRegistry."
 
 	^ Registry ifNil: [ Registry := BidirectionalRegistry new ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> reload [
 	"Reload the sitemap.json from disk and update Local.
     Leaves slugs as raw dictionaries for efficiency."
@@ -695,7 +693,7 @@ FwSiteMap >> reload [
 	self initializeFromWikiStatusJSON
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> reloadFromLocalFile [
   | fileRef txt arr |
   fileRef := self statusFileRef.  "ensureHost inside"
@@ -712,7 +710,7 @@ FwSiteMap >> reloadFromLocalFile [
   ^ self
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> remoteURL [
 	"Optional base URL for HTTP fetching. Nil by default."
 	^ (self respondsTo: #baseUrl)
@@ -720,7 +718,7 @@ FwSiteMap >> remoteURL [
 		ifFalse: [ nil ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> sitemapFile [
 	"Return the local sitemap.json FileReference."
 	| h wikiClass |
@@ -733,7 +731,7 @@ FwSiteMap >> sitemapFile [
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> slugFor: aSlugString [
   "Return the Slug object matching aSlugString, or nil."
   aSlugString ifNil: [ ^ nil ].
@@ -750,7 +748,7 @@ FwSiteMap >> slugFor: aSlugString [
           d ifNil: [ nil ] ifNotNil: [ Slug new rawData: d ] ])
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> slugObjects [
 	self ensureHost.
 	rawData ifNil: [ self reloadFromLocalFile ].
@@ -758,7 +756,7 @@ FwSiteMap >> slugObjects [
 		collect: [ :d | Slug new rawData: d ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> slugs [
   slugs ifNil: [
     self reloadFromLocalFile.
@@ -766,20 +764,20 @@ FwSiteMap >> slugs [
   ^ slugs
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwSiteMap >> slugs: aCollection [
 	"Keep JSON dictionaries as-is"
 
 	slugs := aCollection
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> statusFileRef [
   "Always resolves to ~/.wiki/<host>/status/sitemap.json"
   ^ Wiki sitemapFileForHost: self ensureHost
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> storyItemsWithoutID [
     "Return a Dictionary mapping each slug to its story items missing an 'id'"
 
@@ -808,7 +806,7 @@ FwSiteMap >> storyItemsWithoutID [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 FwSiteMap >> useHTTP [
 	"Offline-first default. Return true only when you explicitly wire remote fetching."
 	^ false

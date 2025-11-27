@@ -24,25 +24,23 @@ This class is used in the Sitemap framework to manage relationships between Fede
 
 "
 Class {
-	#name : 'BidirectionalRegistry',
-	#superclass : 'Dictionary',
+	#name : #BidirectionalRegistry,
+	#superclass : #Dictionary,
 	#instVars : [
 		'siteToSlugs',
 		'slugToSites'
 	],
-	#category : 'Federated-Wiki-Sitemap',
-	#package : 'Federated-Wiki',
-	#tag : 'Sitemap'
+	#category : 'Federated-Wiki-Sitemap'
 }
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry class >> new [
 	^ super new
 		initialize;
 		yourself
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> add: aSlug forSite: aSite [
     "Add aSlug to the siteToSlugs mapping for aSite, and update slugToSites for bidirectional consistency."
     
@@ -57,7 +55,7 @@ BidirectionalRegistry >> add: aSlug forSite: aSite [
     slugSet add: aSite.
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> addMappingForSite: site slug: slug [
 	"Ensure that the bidirectional mappings between site and slug are consistent."
 
@@ -76,7 +74,7 @@ BidirectionalRegistry >> addMappingForSite: site slug: slug [
 	self assertConsistency
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> addSite: aSite slug: aSlug [
 	"Add a bidirectional mapping between a site and a slug."
 
@@ -84,17 +82,17 @@ BidirectionalRegistry >> addSite: aSite slug: aSlug [
 	(slugToSites at: aSlug ifAbsentPut: [ Set new ]) add: aSite
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> allSites [
 	^ siteToSlugs keys
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> allSlugs [
 	^ slugToSites keys
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> assertConsistency [
 	"Ensure that the relationships between siteToSlugs and slugToSites are consistent."
 
@@ -131,7 +129,7 @@ BidirectionalRegistry >> assertConsistency [
 								error: 'Inconsistency detected: ' , site printString , ' is missing from siteToSlugs' ] ] ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> exampleVerifyBidirectionalConsistency [
     <gtExample>
     | registry site slugsFromSite slugsFromRegistry |
@@ -178,7 +176,7 @@ BidirectionalRegistry >> exampleVerifyBidirectionalConsistency [
     ].
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> initialize [
 	"Initialize the forward and reverse dictionaries."
 
@@ -186,40 +184,40 @@ BidirectionalRegistry >> initialize [
 	slugToSites := Dictionary new
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> reverseAt: aValue [
 	"Returns the key for the given value by searching the reverse mapping (slug to site)."
 
 	^ self slugToSites at: aValue ifAbsent: [ nil ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> reverseAt: aSlug put: aSite [
 	"Map the slug to its site in slugToSites."
 
 	(slugToSites at: aSlug ifAbsentPut: [ Set new ]) add: aSite
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> siteToSlugs [
 	"Return the siteToSlugs dictionary."
 
 	^ siteToSlugs ifNil: [ siteToSlugs := Dictionary new ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> sitesForSlug: aSlug [
 	^ slugToSites at: aSlug ifAbsent: [ Set new ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> slugToSites [
 	"Return the slugToSites dictionary."
 
 	^ slugToSites ifNil: [ slugToSites := Dictionary new ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 BidirectionalRegistry >> slugsForSite: aSite [
 	^ siteToSlugs at: aSite ifAbsent: [ Set new ]
 ]

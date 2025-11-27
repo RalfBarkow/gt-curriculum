@@ -1,6 +1,6 @@
 Class {
-	#name : 'FwMissingPage',
-	#superclass : 'Object',
+	#name : #FwMissingPage,
+	#superclass : #Object,
 	#instVars : [
 		'host',
 		'port',
@@ -11,11 +11,10 @@ Class {
 		'errorCode',
 		'errorMessage'
 	],
-	#category : 'Federated-Wiki',
-	#package : 'Federated-Wiki'
+	#category : 'Federated-Wiki'
 }
 
-{ #category : 'instance creation' }
+{ #category : #'instance creation' }
 FwMissingPage class >> host: aHost port: aPort slug: aSlug jsonUrl: aJsonUrl viewUrl: aViewUrl code: aCode message: aMsg [
 	| obj |
 	obj := self new.
@@ -29,32 +28,32 @@ FwMissingPage class >> host: aHost port: aPort slug: aSlug jsonUrl: aJsonUrl vie
 	^ obj
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwMissingPage >> errorCode [
 	^ errorCode
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwMissingPage >> errorMessage [
 	^ errorMessage
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwMissingPage >> host [
 	^ host
 ]
 
-{ #category : 'testing' }
+{ #category : #testing }
 FwMissingPage >> isMissing [
 	^ true
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwMissingPage >> jsonUrl [
 	^ jsonUrl
 ]
 
-{ #category : 'printing' }
+{ #category : #printing }
 FwMissingPage >> printOn: s [
 	super printOn: s.
 	s
@@ -66,17 +65,17 @@ FwMissingPage >> printOn: s [
 	s nextPutAll: ')'
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwMissingPage >> slug [
 	^ slug
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwMissingPage >> viewUrl [
 	^ viewUrl
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwMissingPage >> withLePage: aLePage [
 	lePage := aLePage.
 	^ self

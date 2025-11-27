@@ -26,14 +26,12 @@ The best approach for creating a new custom page type is to copy {{gtClass:LeExa
 See {{gtClass:LePageType class}}
 "
 Class {
-	#name : 'LeExampleCustomPageType',
-	#superclass : 'LeNamedPageType',
-	#category : 'Federated-Wiki-Model',
-	#package : 'Federated-Wiki',
-	#tag : 'Model'
+	#name : #LeExampleCustomPageType,
+	#superclass : #LeNamedPageType,
+	#category : 'Federated-Wiki-Model'
 }
 
-{ #category : 'example' }
+{ #category : #example }
 LeExampleCustomPageType class >> examplePage [
 	| page |
 	page := LePage new.
@@ -44,34 +42,34 @@ LeExampleCustomPageType class >> examplePage [
 	^ page
 ]
 
-{ #category : 'initialization' }
+{ #category : #initialization }
 LeExampleCustomPageType class >> initialize [
 	super initialize.
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 LeExampleCustomPageType class >> leJsonV4AttributeMapping [
 
 	^ super leJsonV4AttributeMapping
 ]
 
-{ #category : 'accesing' }
+{ #category : #accesing }
 LeExampleCustomPageType class >> leJsonV4Name [
 
 	^ 'exampleCustomPage'
 ]
 
-{ #category : 'printing' }
+{ #category : #printing }
 LeExampleCustomPageType class >> niceClassName [
 	^ 'Example Custom Page'
 ]
 
-{ #category : 'ui' }
+{ #category : #ui }
 LeExampleCustomPageType >> asPreviewElement [
 	^ self defaultPhlowTool asElement
 ]
 
-{ #category : 'converting' }
+{ #category : #converting }
 LeExampleCustomPageType >> defaultPhlowTool [
 	^ GtPhlowExplicitTool new withIconAptitude
 		name: self page title;
@@ -82,13 +80,13 @@ LeExampleCustomPageType >> defaultPhlowTool [
 					do: [ :anEvent | anEvent currentTarget phlow spawnObject: 42 ] ]
 ]
 
-{ #category : 'example' }
+{ #category : #example }
 LeExampleCustomPageType >> examplePage [
 	<gtExample>
 	^ self class examplePage
 ]
 
-{ #category : 'printing' }
+{ #category : #printing }
 LeExampleCustomPageType >> printOn: aStream [
 
 	aStream 

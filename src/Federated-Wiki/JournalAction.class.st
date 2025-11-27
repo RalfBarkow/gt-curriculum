@@ -12,39 +12,37 @@ Actions of type 'fork' change the ownership of a page.
 The {{gtClass:Journal}}, when properly maintained, collects the complete history of a wiki page. See also {{gtClass:LePageEditHistory}}
 "
 Class {
-	#name : 'JournalAction',
-	#superclass : 'Object',
+	#name : #JournalAction,
+	#superclass : #Object,
 	#instVars : [
 		'rawData',
 		'type',
 		'date',
 		'item'
 	],
-	#category : 'Federated-Wiki-Journal',
-	#package : 'Federated-Wiki',
-	#tag : 'Journal'
+	#category : 'Federated-Wiki-Journal'
 }
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 JournalAction class >> fromRawData: each [
 	"Create a new Action object from the given raw data"
 
 	^ self new rawData: each
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 JournalAction class >> type: aType date: aDate [
 	^ self new
 		initializeType: aType;
 		initializeDate: aDate
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 JournalAction >> date [
 	^ DateAndTime fromUnixTime: date asInteger // 1000	"seconds"
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 JournalAction >> gtDateFor: aView [
 	<gtView>
 	^ aView forward
@@ -54,7 +52,7 @@ JournalAction >> gtDateFor: aView [
 		view: #gtPreviewFor:
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 JournalAction >> gtItemFor: aView [
 	<gtView>
 	^ aView forward
@@ -64,7 +62,7 @@ JournalAction >> gtItemFor: aView [
 		view: #gtItemsFor:
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 JournalAction >> gtRawDataFor: aView [
 	<gtView>
 	^ aView columnedList
@@ -74,7 +72,7 @@ JournalAction >> gtRawDataFor: aView [
 		column: 'Value' text: #value
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 JournalAction >> gtTypeFor: aView [
 	<gtView>
 	^ aView forward
@@ -84,12 +82,12 @@ JournalAction >> gtTypeFor: aView [
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 JournalAction >> id [
 	^ rawData at: #id
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 JournalAction >> initialize [
 	rawData
 		ifNotNil: [ type := rawData at: #type ifAbsent: [ nil ].
@@ -97,40 +95,40 @@ JournalAction >> initialize [
 			item := rawData at: #item ifAbsent: [ nil ] ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 JournalAction >> initializeDate: aDate [
 	date := aDate.
 	^ self
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 JournalAction >> initializeType: aType [
 	type := aType.
 	^ self
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 JournalAction >> item [
 	^ item
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 JournalAction >> rawData [
 	^ rawData
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 JournalAction >> rawData: aDictionary [
 	rawData := aDictionary.
 	self initialize
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 JournalAction >> site [
 	^ self rawData at: #site ifAbsent: [ nil ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 JournalAction >> type [
 	^ type
 ]

@@ -28,8 +28,8 @@ Internal Representation and Key Implementation Points.
     A Federated Wiki page is implemented as a {{gtClass:name=LePage}}, i.e.,  a collection of snippets that for most part can be considered analogous to a printed page.
 "
 Class {
-	#name : 'Story',
-	#superclass : 'Object',
+	#name : #Story,
+	#superclass : #Object,
 	#instVars : [
 		'page',
 		'rawData',
@@ -38,12 +38,10 @@ Class {
 		'pageJson',
 		'json'
 	],
-	#category : 'Federated-Wiki-Story',
-	#package : 'Federated-Wiki',
-	#tag : 'Story'
+	#category : 'Federated-Wiki-Story'
 }
 
-{ #category : 'examples' }
+{ #category : #examples }
 Story class >> exampleRoundTripParity [
     <gtExample>
     | raw jsonText fromRaw fromJson aj bj |
@@ -77,7 +75,7 @@ Story class >> exampleRoundTripParity [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story class >> fromPage: aPage [
 	| rawJson storyItemsArray |
 	rawJson := aPage json.
@@ -89,7 +87,7 @@ Story class >> fromPage: aPage [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story class >> fromRawArray: storyArray [
 	"Convert a raw OrderedCollection of dicts into a Story."
 
@@ -98,12 +96,12 @@ Story class >> fromRawArray: storyArray [
 		yourself
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story class >> fromRawData: aRawData [
 	^ self new initializeWithRawData: aRawData
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Story class >> readFrom: aStream [
 	"Read a Story from a JSON stream."
 
@@ -112,7 +110,7 @@ Story class >> readFrom: aStream [
 	^ self fromRawData: (parsed at: #story ifAbsent: [ #() ])
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story >> buildIndex [
     "Build a Dictionary mapping id→item (string form)."
     indexByID := OrderPreservingDictionary new.
@@ -121,14 +119,14 @@ Story >> buildIndex [
         indexByID at: (it id asString) put: it ].
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story >> clearItemsCache [
     "Force a rebuild of items and index on next access."
     items := nil.
     indexByID  := nil
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Story >> gtIndexByIDFor: aView [
 	<gtView>
 	^ aView forward
@@ -138,7 +136,7 @@ Story >> gtIndexByIDFor: aView [
 		view: #gtLiveFor:
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Story >> gtItemTypeOf: each [
 	"Return the type of this story item (string or symbol).
     This is used as the display label for the item in Spotter search results.
@@ -151,7 +149,7 @@ Story >> gtItemTypeOf: each [
 				ifFalse: [ '?' ] ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Story >> gtSearchStringForItem: each [
 	"Return a concatenated string of all relevant fields from this story item (type, id, text, title, caption, url).
     Used by Spotter full-text search so that each item can be matched against the user query based on its own JSON content, rather than only its type."
@@ -185,7 +183,7 @@ Story >> gtSearchStringForItem: each [
 					addValue value: v ] ]
 ]
 
-{ #category : 'searches' }
+{ #category : #searches }
 Story >> gtSpotterForItemsFor: aSearch [
     <gtSearch>
     ^ aSearch list
@@ -200,7 +198,7 @@ Story >> gtSpotterForItemsFor: aSearch [
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Story >> gtStoryItemsFor: aView [
 	<gtView>
 	^ aView columnedList
@@ -212,7 +210,7 @@ Story >> gtStoryItemsFor: aView [
 		column: 'Text' text: #text
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story >> gtViewFor: aView [
 	<gtView>
 	^ aView forward
@@ -222,7 +220,7 @@ Story >> gtViewFor: aView [
 		view: #gtJsonObjectFor:context:
 ]
 
-{ #category : 'accessing – index' }
+{ #category : #'accessing – index' }
 Story >> indexByID [
 	"Lazily build and return my id→item Dictionary."
 
@@ -230,12 +228,12 @@ Story >> indexByID [
 	^ indexByID
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story >> initializeWithItems: itemsList [
 	items := itemsList
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story >> initializeWithPage: aPage items: storyItemsArray pageJson: rawJson [
 	page := aPage.
 	items := storyItemsArray
@@ -244,20 +242,20 @@ Story >> initializeWithPage: aPage items: storyItemsArray pageJson: rawJson [
 	^ self
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story >> initializeWithRawData: rawStoryData [
 	items := rawStoryData collect: [ :each | FwStoryItem new rawData: each ].
 	^ items
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story >> itemAtID: anID [
     "Return any StoryItem whose id matches anID (String or Number), or nil."
     self items.  "ensure indexByID is built"
     ^ indexByID at: (anID asString) ifAbsent: [ nil ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Story >> items [
     items ifNil: [
         "1. Build the array of model objects"
@@ -269,7 +267,7 @@ Story >> items [
     ^ items
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story >> json [
     "Return normalized story blocks.
      Prefer rawData if present; otherwise parse pageJson (STON). Cache in json."
@@ -293,34 +291,34 @@ Story >> json [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story >> page [
 	^ page
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Story >> page: aJSONString [
     page := aJSONString
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Story >> pageJson [
 	^ pageJson
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Story >> pageJson: anObject [
 	pageJson := anObject
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Story >> rawData [
 	"Expose the unparsed array of dictionaries."
 
 	^ rawData
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Story >> rawData: aCollection [
 	"Initialize my raw JSON payload array and clear any old caches."
 

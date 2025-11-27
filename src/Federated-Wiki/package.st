@@ -1,1 +1,1 @@
-Package { #name : 'Federated-Wiki' }
+Package { #name : #'Federated-Wiki' }

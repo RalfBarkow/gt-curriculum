@@ -1,12 +1,10 @@
 Class {
-	#name : 'FwAttribution',
-	#superclass : 'Object',
-	#category : 'Federated-Wiki-attribution',
-	#package : 'Federated-Wiki',
-	#tag : 'attribution'
+	#name : #FwAttribution,
+	#superclass : #Object,
+	#category : 'Federated-Wiki-attribution'
 }
 
-{ #category : 'examples' }
+{ #category : #examples }
 FwAttribution >> exampleAttribution [
 	<gtExample>
 	| page result |

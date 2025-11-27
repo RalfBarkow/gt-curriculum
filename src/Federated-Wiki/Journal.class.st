@@ -29,8 +29,8 @@ a `Journal` class creates a `journal` instance with `title` and `story`,
 and the `title` and `story` are copied up one level so that they are stored before the `journal` and evolve at the same level as the `journal` instance. 
 "
 Class {
-	#name : 'Journal',
-	#superclass : 'Object',
+	#name : #Journal,
+	#superclass : #Object,
 	#instVars : [
 		'actions',
 		'pageJson',
@@ -38,12 +38,10 @@ Class {
 		'rawData',
 		'page'
 	],
-	#category : 'Federated-Wiki-Journal',
-	#package : 'Federated-Wiki',
-	#tag : 'Journal'
+	#category : 'Federated-Wiki-Journal'
 }
 
-{ #category : 'factory' }
+{ #category : #factory }
 Journal class >> create [
 	"Answer a wiki page JSON with `journal`, `title` and `story`"
 
@@ -68,7 +66,7 @@ Journal class >> create [
 	^ NeoJSONObject fromString: string
 ]
 
-{ #category : 'factory' }
+{ #category : #factory }
 Journal class >> create: aSlug [
 	"Answer a wiki page JSON with `journal`, `title` and `story`"
 
@@ -93,7 +91,7 @@ Journal class >> create: aSlug [
 	^ NeoJSONObject fromString: string
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Journal class >> fromPage: aPage [
 	| rawJson journalActionsArray |
 	rawJson := aPage json.
@@ -105,30 +103,30 @@ Journal class >> fromPage: aPage [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Journal class >> fromRawData: aRawData [
 	^ self new initializeWithRawData: aRawData
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Journal >> actions [
 	^ actions
 		ifNil: [ actions := self rawData collect: [ :each | JournalAction new rawData: each ] ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Journal >> actions: anActionCollection [
     actions := anActionCollection.
     ^ self
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Journal >> addToJournal [
 	"is called when the origin server response that the network operation is complete."
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Journal >> context [
     | sites |
     sites := OrderedCollection new.
@@ -140,14 +138,14 @@ Journal >> context [
     ^ sites
 ]
 
-{ #category : 'examples' }
+{ #category : #examples }
 Journal >> exampleContext [
 	<gtExample>
 	page := FwPage fetch: 'http://localhost:3000/dm6-elm.json'.
 	^ page journal context
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Journal >> gtJournalActionsFor: aView [
 	<gtView>
 	^ aView columnedList
@@ -159,7 +157,7 @@ Journal >> gtJournalActionsFor: aView [
 		column: 'Item' text: #item
 ]
 
-{ #category : 'search' }
+{ #category : #search }
 Journal >> gtSpotterForActionsFor: aSearch [
    <gtSearch>
    ^ aSearch list
@@ -176,7 +174,7 @@ Journal >> gtSpotterForActionsFor: aSearch [
 
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Journal >> gtViewFor: aView [
 	<gtView>
 	^ aView forward
@@ -186,7 +184,7 @@ Journal >> gtViewFor: aView [
 		view: #gtJsonObjectFor:context:
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Journal >> initializeWithPage: aPage actions: anArray pageJson: rawJson [
 	page := aPage.
 	actions := anArray collect: [ :each | JournalAction fromRawData: each ].
@@ -194,43 +192,43 @@ Journal >> initializeWithPage: aPage actions: anArray pageJson: rawJson [
 	^ self
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Journal >> initializeWithRawData: rawJournalData [
 	actions := rawJournalData collect: [ :each | JournalAction new rawData: each ].
 	^ actions
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Journal >> json [
 	^ json := ((STONJSON fromString: pageJson) at: #journal) asGtJson
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Journal >> page [
 	^ page
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Journal >> page: anObject [
 	page := anObject
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Journal >> pageJson [
 	^ pageJson
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Journal >> pageJson: anObject [
 	pageJson := anObject
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Journal >> rawData [
 	^ rawData
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Journal >> rawData: aCollection [
 	"Initialize my raw JSON payload array and clear any old caches."
 
@@ -238,7 +236,7 @@ Journal >> rawData: aCollection [
 	actions := nil
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Journal >> replay [
 	"Reconstructs the page JSON by replaying all actions to produce the current story"
 

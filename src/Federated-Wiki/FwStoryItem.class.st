@@ -6,22 +6,20 @@ Add an item to a story, e.g. by dragging and dropping it.
 Story element drop points. Mark insertion points of various story elements into the story. --  ONG, TeongJoo and LEGGETT, John J., 2004. A genetic algorithm approach to interactive narrative generation. In: Proceedings of the fifteenth ACM conference on Hypertext and hypermedia. Online. New York, NY, USA: Association for Computing Machinery. 9 August 2004. p. 181–182. [Accessed 20 December 2022]. HYPERTEXT ’04. ISBN 978-1-58113-848-1. DOI 10.1145/1012807.1012856.
 "
 Class {
-	#name : 'FwStoryItem',
-	#superclass : 'Object',
+	#name : #FwStoryItem,
+	#superclass : #Object,
 	#instVars : [
 		'rawData'
 	],
-	#category : 'Federated-Wiki-Story',
-	#package : 'Federated-Wiki',
-	#tag : 'Story'
+	#category : 'Federated-Wiki-Story'
 }
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem class >> fromRawData: aDict [
     ^ self new initializeWithRawData: aDict
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> gtAssetsFor: aView [
 	<gtView>
 	self type = #assets ifFalse: [ ^ aView empty ].
@@ -32,7 +30,7 @@ FwStoryItem >> gtAssetsFor: aView [
 		view: #gtTreeFor:
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> gtCodeFor: aView [
 	<gtView>
 	self type = #code ifFalse: [ ^ aView empty ].
@@ -43,7 +41,7 @@ FwStoryItem >> gtCodeFor: aView [
 		view: #gtExploreFor:
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> gtFigureFor: aView [
 	<gtView>
 	| url |
@@ -58,7 +56,7 @@ FwStoryItem >> gtFigureFor: aView [
 		stencil: [ (GtFileUtility imageElementFromFileReference: url) margin: (BlInsets all: 10) ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> gtRawDataFor: aView [
 	<gtView>
 	^ aView columnedList
@@ -68,7 +66,7 @@ FwStoryItem >> gtRawDataFor: aView [
 		column: 'Value' text: #value
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> gtTextFor: aView [
 	"TODO title: 'Caption' in case of an image"
 
@@ -79,7 +77,7 @@ FwStoryItem >> gtTextFor: aView [
 		text: [ self text ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> gtUrlFor: aView [
 	<gtView>
 	rawData at: 'url' ifAbsent: [ ^ aView empty ].
@@ -89,7 +87,7 @@ FwStoryItem >> gtUrlFor: aView [
 		text: [ self url ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> id [
     "Return the item’s id, handling both symbol and string keys.
     If no id is present, generate a placeholder so processing can continue."
@@ -108,14 +106,14 @@ FwStoryItem >> id [
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> initializeWithRawData: aDict [
     rawData := aDict.
     ^ self
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> json [
 	"Normalize keys to strings; pass values through."
 
@@ -126,42 +124,42 @@ FwStoryItem >> json [
 	^ out
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> rawData [
 	^ rawData
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> rawData: anArray [
 	rawData := anArray 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> site [
 	^ self rawData at: #site ifAbsent: [ nil ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> slug [
 	^ rawData at: #slug
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> text [
 	^ rawData at: 'text'
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> title [
 	^ rawData at: 'title'
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> type [
 	^ rawData at: 'type'
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwStoryItem >> url [
 	^ rawData at: 'url'
 ]

@@ -1,37 +1,35 @@
 Class {
-	#name : 'FwInterpreter',
-	#superclass : 'Object',
+	#name : #FwInterpreter,
+	#superclass : #Object,
 	#instVars : [
 		'input',
 		'lineno'
 	],
-	#category : 'Federated-Wiki-fedwiki-smalltalk',
-	#package : 'Federated-Wiki',
-	#tag : 'fedwiki-smalltalk'
+	#category : 'Federated-Wiki-fedwiki-smalltalk'
 }
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwInterpreter >> input [
 	^ input	"a ZnCharacterReadStream"
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwInterpreter >> input: aFileReference [
 	lineno := 0.
 	input := aFileReference readStream
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwInterpreter >> lineno [
 	^ lineno
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwInterpreter >> lineno: aSmallInteger [
 	lineno := aSmallInteger
 ]
 
-{ #category : 'logging' }
+{ #category : #logging }
 FwInterpreter >> log: aString [
 	"Write the given string to the Transcript, then add a newline"
 
@@ -40,7 +38,7 @@ FwInterpreter >> log: aString [
 		cr
 ]
 
-{ #category : 'input' }
+{ #category : #input }
 FwInterpreter >> nextLine [
 	| cmd |
 	"Read a line; if at EOF, cmd will be nil"

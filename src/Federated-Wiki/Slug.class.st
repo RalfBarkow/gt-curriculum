@@ -15,20 +15,18 @@ FwPage = detailed page object, knows story, journal, actual page JSON.
 
 "
 Class {
-	#name : 'Slug',
-	#superclass : 'Object',
+	#name : #Slug,
+	#superclass : #Object,
 	#instVars : [
 		'rawData',
 		'slug',
 		'missingLinks',
 		'page'
 	],
-	#category : 'Federated-Wiki-Sitemap',
-	#package : 'Federated-Wiki',
-	#tag : 'Sitemap'
+	#category : 'Federated-Wiki-Sitemap'
 }
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Slug class >> slug: aString [
 	"Create a new Slug whose identifier is the given string."
 
@@ -37,7 +35,7 @@ Slug class >> slug: aString [
 		yourself
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Slug class >> slug: aString withPage: aPage [
 	^ self new
 		slug: aString;
@@ -46,22 +44,22 @@ Slug class >> slug: aString withPage: aPage [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Slug >> = anotherSlug [
 	^ self class = anotherSlug class and: [ self slug = anotherSlug slug ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> date [
 	^ rawData at: 'date' ifAbsent: [ rawData at: #date ifAbsent: [ nil ] ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Slug >> dependentSlugs [
 	^ self links keys asSet
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Slug >> gtDependenciesMapFor: aView [
 	<gtView>
 	^ aView mondrian
@@ -117,7 +115,7 @@ Slug >> gtDependenciesMapFor: aView [
 			m layout force ]
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Slug >> gtJournalFor: aView [
 	<gtView>
 	^ aView forward
@@ -127,7 +125,7 @@ Slug >> gtJournalFor: aView [
 		view: #gtJournalActionsFor:
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Slug >> gtLinksSnippetReferencesFor: aView [
 	<gtView>
 	^ (aView
@@ -138,7 +136,7 @@ Slug >> gtLinksSnippetReferencesFor: aView [
 				view: #gtTreeFor:context: ]) ifNil: [ Dictionary new ]
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Slug >> gtLinksStatusFor: aView [
 	<gtView>
 	^ aView
@@ -157,7 +155,7 @@ Slug >> gtLinksStatusFor: aView [
 		ifNil: [ Dictionary new ]
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Slug >> gtPageFor: aView [
 	<gtView>
 	| resolvedPage |
@@ -171,7 +169,7 @@ Slug >> gtPageFor: aView [
 		view: #gtDetailsFor:
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Slug >> gtRawDataFor: aView [
 	<gtView>
 	^ aView forward
@@ -181,7 +179,7 @@ Slug >> gtRawDataFor: aView [
 		view: #gtTreeFor:context:
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Slug >> gtStoryFor: aView [
 	<gtView>
 	^ aView forward
@@ -191,7 +189,7 @@ Slug >> gtStoryFor: aView [
 		view: #gtStoryItemsFor:
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Slug >> gtSynopsisFor: aView [
 	<gtView>
 	^ aView textEditor
@@ -204,7 +202,7 @@ Slug >> gtSynopsisFor: aView [
 				ifNil: [ self page ifNotNil: [ self page synopsis ] ifNil: [ '' ] ] ]
 ]
 
-{ #category : 'views' }
+{ #category : #views }
 Slug >> gtWebpageFor: aView [
 	<gtView>
 	^ aView explicit
@@ -214,12 +212,12 @@ Slug >> gtWebpageFor: aView [
 				url: (page url ifNil: [ ^ self error: 'Page URL not found for this Slug.' ]) asString ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Slug >> hash [
 	^ self slug hash
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> inSiteMap [
 	"Answer true if a slug with the same slug string exists in the local FwSiteMap."
 
@@ -228,19 +226,19 @@ Slug >> inSiteMap [
 	^ localSitemap notNil and: [ (localSitemap slugFor: self slug) notNil ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> isSlug [
 	"Return true if this object is a slug"
 
 	^ true
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> linkedSlugs [
 	^ self linkedSlugsIn: FwSiteMap local
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> linkedSlugsIn: aSiteMap [
     | linkedSlugs |
     linkedSlugs := OrderedCollection new.
@@ -257,14 +255,14 @@ Slug >> linkedSlugsIn: aSiteMap [
     ^ linkedSlugs asArray
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> linkedSlugsWithSelf [
 	^ (self linkedSlugs asOrderedCollection
 		add: self;
 		yourself) asArray
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> linkedStoryItems [
     "Return a Dictionary mapping each link anchor → the StoryItem it references,
      skipping any entries that error out."
@@ -293,44 +291,44 @@ Slug >> linkedStoryItems [
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> links [
 	| ls |
 	ls := rawData at: 'links' ifAbsent: [ rawData at: #links ifAbsent: [ #() ] ].
 	^ ls isCollection ifTrue: [ ls ] ifFalse: [ #() ]
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Slug >> missingLinks [
 	^ missingLinks
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Slug >> missingLinks: ghosts [
 	missingLinks := ghosts
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> page [
 	^ page ifNil: [ page := FwSiteMap local pageForSlug: self slug ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> page: aFwPage [
 	page := aFwPage
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> rawData [
 	^ rawData
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> rawData: anObject [ 
 	rawData := anObject
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Slug >> replaceKeyWithSlugIn: aDictionary [
     | newDictionary sitemap |
 
@@ -349,13 +347,13 @@ Slug >> replaceKeyWithSlugIn: aDictionary [
 
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Slug >> resolveSlug: aSlug [
     "Resolves the slug to a page. Return nil if not found, or the resolved page if it exists."
     ^ FwSiteMap local pageForSlug: aSlug.
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : #'as yet unclassified' }
 Slug >> resolveStatusFor: aSlug [
     "Checks if a slug can be resolved and returns the appropriate status."
     ^ (self resolveSlug: aSlug)
@@ -364,17 +362,17 @@ Slug >> resolveStatusFor: aSlug [
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> slug [
 	^ rawData at: 'slug' ifAbsent: [ rawData at: #slug ifAbsent: [ nil ] ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> slug: aString [
 	slug := aString
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> snippetForId: anId [
     ^ self story 
         items 
@@ -383,7 +381,7 @@ Slug >> snippetForId: anId [
 
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Slug >> title [
 	^ rawData at: 'title' ifAbsent: [ rawData at: #title ifAbsent: [ '' ] ]
 ]

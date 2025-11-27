@@ -1,11 +1,11 @@
-Extension { #name : 'String' }
+Extension { #name : #String }
 
-{ #category : '*Federated-Wiki' }
+{ #category : #'*Federated-Wiki' }
 String >> asFedWikiPage [
 	^ FwPage slug: self
 ]
 
-{ #category : '*Federated-Wiki' }
+{ #category : #'*Federated-Wiki' }
 String >> asFedWikiSlug [
 	| slug |
 	slug := (self replaceAllRegex: '\s' with: '-')

@@ -1,12 +1,10 @@
 Class {
-	#name : 'DM6Elm',
-	#superclass : 'Object',
-	#category : 'Federated-Wiki-dm6-elm',
-	#package : 'Federated-Wiki',
-	#tag : 'dm6-elm'
+	#name : #DM6Elm,
+	#superclass : #Object,
+	#category : 'Federated-Wiki-dm6-elm'
 }
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 DM6Elm class >> repository [
 	"git@github.com:dmx-systems/dm6-elm.git"
 

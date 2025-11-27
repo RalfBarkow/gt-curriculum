@@ -1,20 +1,18 @@
 Class {
-	#name : 'FwPanel',
-	#superclass : 'Object',
+	#name : #FwPanel,
+	#superclass : #Object,
 	#instVars : [
 		'context'
 	],
-	#category : 'Federated-Wiki-panel',
-	#package : 'Federated-Wiki',
-	#tag : 'panel'
+	#category : 'Federated-Wiki-panel'
 }
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPanel >> context [
 	^ context
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 FwPanel >> context: anObject [
 	context := anObject
 ]

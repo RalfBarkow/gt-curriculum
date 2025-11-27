@@ -1,0 +1,537 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:18:30.231563+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:51:15.276817+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SYL5N+8ADgC9lwlCAEywpg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:Wiki class}} and \nfeat: add Wiki process management and stdout transcript logging"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:18:17.682843+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:18:19.480452+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5Qc6N+8ADgC9kaPtAEywpg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "```smalltalk\n\"1) Ensure Wiki has the right class variables (Process, StdoutTranscript).\nEvaluate this chunk once.\"\n\n(Smalltalk includesKey: #Wiki)\n\tifTrue: [\n\t\t| newClassVars |\n\t\tnewClassVars := (Wiki classVarNames asSet\n\t\t\taddAll: #(Process StdoutTranscript);\n\t\t\tyourself) asArray.\n\n\t\tWiki classVariableNames: (String streamContents: [ :s |\n\t\t\tnewClassVars\n\t\t\t\tdoWithIndex: [ :each :i |\n\t\t\t\t\ti > 1 ifTrue: [ s space ].\n\t\t\t\t\ts nextPutAll: each ] ]) ]\n\tifFalse: [\n\t\tObject\n\t\t\tsubclass: #Wiki\n\t\t\tinstanceVariableNames: 'rawData'\n\t\t\tclassVariableNames: 'Process StdoutTranscript'\n\t\t\tpackage: 'Federated-Wiki-localhost' ].\n```\n\n```smalltalk\n\"2) class >> process\nMain entry point: returns the long-lived wiki process, starting it if needed.\"\n\nWiki class\n\tcompile: 'process\n\t\"Return the long-lived wiki server process, starting it if needed.\"\n\n\t^ Process ifNil: [ self start ]'\n\tclassified: 'process'.\n```\n\n```smalltalk\n\"3) class >> process:\nExplicit setter, in case you want to inject/override.\"\n\nWiki class\n\tcompile: 'process: aProcess\n\tProcess := aProcess'\n\tclassified: 'process'.\n```\n\n```smalltalk\n\"4) class >> start\nStarts `wiki` if not already started and returns the process.\"\n\nWiki class\n\tcompile: 'start\n\t\"Start the `wiki` server if not already running.\n\tReturns the external process handle.\"\n\n\tProcess ifNotNil: [ ^ Process ].\n\n\tProcess := GtExternalProcessBuilder new\n\t\tcommand: ''wiki'';\n\t\tpipeStdout;\n\t\tspawn.\n\n\t^ Process'\n\tclassified: 'process'.\n```\n\n```smalltalk\n\"5) class >> stop\nCleanly terminate and clear the cached process.\"\n\nWiki class\n\tcompile: 'stop\n\t\"Terminate the external `wiki` process if it is running\n\t and clear the cached handle.\"\n\n\tProcess ifNil: [ ^ self ].\n\n\t[ Process terminate ]\n\t\ton: Error\n\t\tdo: [ :ex | Transcript\n\t\t\t\tshow: ''Error terminating wiki process: '';\n\t\t\t\tshow: ex messageText;\n\t\t\t\tcr ].\n\n\tProcess := nil'\n\tclassified: 'process'.\n```\n\n```smalltalk\n\"6) class >> hasProcess\nSimple query if we currently hold a process handle.\"\n\nWiki class\n\tcompile: 'hasProcess\n\t^ Process notNil'\n\tclassified: 'process'.\n```\n\n```smalltalk\n\"7) class >> stdoutTranscript\nTranscript slot used to collect wiki stdout.\"\n\nWiki class\n\tcompile: 'stdoutTranscript\n\t\"Return the Transcript that collects wiki''s stdout.\"\n\n\t^ StdoutTranscript ifNil: [ StdoutTranscript := GtTranscript new ]'\n\tclassified: 'logging'.\n```\n\n```smalltalk\n\"8) class >> stdoutTranscript:\nExplicit setter for the transcript slot.\"\n\nWiki class\n\tcompile: 'stdoutTranscript: aTranscript\n\tStdoutTranscript := aTranscript'\n\tclassified: 'logging'.\n```\n\n```smalltalk\n\"9) class >> attachStdoutReader\nStub for now, because `asynchronousStdout` is not implemented.\nYou can fill this in once you know the correct streaming API.\"\n\nWiki class\n\tcompile: 'attachStdoutReader\n\t\"Attach a stdout reader for the wiki process.\n\tSTUB: asynchronousStdout is not available in this image,\n\tso this method only signals an error for now.\"\n\n\tself error: ''Stdout reader not implemented yet. asynchronousStdout is not available in this image.'''\n\tclassified: 'logging'.\n```\n\n```smalltalk\n\"10) Convenience: start wiki and open it in the browser from a Playground.\"\n\nWiki process.  \"ensure server is running\"\nWebBrowser openOn: 'http://localhost:3000/view/welcome-visitors'.\n```\n"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:29:09.986531+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:30:09.211754+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "FGUbXu8ADgCk0ZENAEywpg=="
+				},
+				"code" : "Wiki process\t\"a GtNativeExternalProcessChild\""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:54:00.854354+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:54:02.96384+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "kjv4tu8ADgC54WmwAEywpg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "For GtNativeExternalProcessChild, id is the OS PID (the one you used with ps -p 14569 ...)."
+						},
+						{
+							"__type" : "shellCommandSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:54:40.5099+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:54:42.657402+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "91NVue8ADgC56pfrAEywpg=="
+							},
+							"code" : "ps -p 4886 -o pid,ppid,tty,stat,start,time,command",
+							"bindingName" : "psOutput"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-27T07:55:38.425057+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-27T07:56:26.687471+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "LAvJvO8ADgC6BVreAEywpg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "See [issue](https://github.com/feenkcom/gtoolkit/issues/4454)– Lepiter pages can have various bindings added by different snippets. We added a widget for managing them."
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:55:15.915153+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:55:20.225199+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "z5Fxu+8ADgC58B1lAEywpg=="
+							},
+							"code" : "psOutput"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:56:55.4129+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:56:57.709951+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "zshfwe8ADgC6N7+TAEywpg=="
+							},
+							"code" : "| lines headers values row |\n\nlines := psOutput lines.\n\n\"Split header and data line into tokens, drop empty ones\"\nheaders := (lines first findTokens: Character space) reject: #isEmpty.\nvalues  := (lines second findTokens: Character space) reject: #isEmpty.\n\n\"Headers -> values dictionary\"\nrow := Dictionary new.\n1 to: headers size do: [ :i |\n\trow at: (headers at: i) asSymbol put: (values at: i) ].\n\nrow.\n"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:57:22.699278+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:57:25.690403+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "hCQAw+8ADgC6QgueAEywpg=="
+							},
+							"code" : "| lines headerLine dataLine headers dataTokens firstN commandTokens command values row |\n\n\"psOutput is the stdout from `ps -p ...`\"\nlines := psOutput lines.\nheaderLine := lines first.\ndataLine   := lines second.\n\n\"Column names (PID PPID TTY STAT STARTED TIME COMMAND)\"\nheaders := (headerLine findTokens: Character space) reject: #isEmpty.\n\n\"All data tokens of the second line\"\ndataTokens := (dataLine findTokens: Character space) reject: #isEmpty.\n\n\"All columns except the last one\"\nfirstN := dataTokens first: headers size - 1.\n\n\"Tokens that belong to COMMAND (may contain spaces)\"\ncommandTokens := dataTokens allButFirst: headers size - 1.\n\n\"Join COMMAND tokens with spaces\"\ncommand := String streamContents: [ :stream |\n    commandTokens\n        doWithIndex: [ :each :i |\n            i > 1 ifTrue: [ stream space ].\n            stream nextPutAll: each ] ].\n\n\"Rebuild values list so it matches headers 1:1\"\nvalues := firstN copyWith: command.\n\n\"Headers -> values dictionary\"\nrow := Dictionary new.\n1 to: headers size do: [ :i |\n    row at: (headers at: i) asSymbol put: (values at: i) ].\n\nrow.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:29:47.976809+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:29:49.187769+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EBJfYO8ADgCk4MsZAEywpg=="
+				},
+				"code" : "GtNativeExternalProcessChild allInstances"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:58:07.487233+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-27T07:58:09.722161+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "NY2rxe8ADgC6Sb5UAEywpg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "StdoutTranscript will hold a {{gtClass:GtTranscript}} you can look at from GT."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:32:45.523305+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:32:54.40676+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sjn0au8ADgClB94LAEywpg=="
+				},
+				"code" : "Wiki stdoutTranscript"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:34:04.440285+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:34:18.351644+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "D2eob+8ADgClNjWmAEywpg=="
+				},
+				"code" : "GtTranscript allInstances"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:52:03.260078+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-27T07:52:10.58228+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3uL1r+8ADgC5gc8jAEywpg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Next: [[Federated Wiki]]"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-27T07:24:47.083611+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-27T07:50:54.957348+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Wiki"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "6a053a37-ef00-0e00-bd90-9798004cb0a6"
+	}
+}
